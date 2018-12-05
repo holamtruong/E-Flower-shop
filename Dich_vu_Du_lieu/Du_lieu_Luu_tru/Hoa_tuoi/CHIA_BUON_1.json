@@ -1,0 +1,27 @@
+{
+	"Ten": "Ánh Chiều Tà",
+	"Ma_so": "CHIA_BUON_1",
+	"Don_gia_Ban": 850000,
+	"Don_gia_Nhap": 600000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu trắng",
+		"Ma_so":"TRANG"
+	},
+	
+	"Mo_ta":"Con người ai rồi cũng sẽ già đi. Tựa như ánh chiều tà buồn man mác rồi cũng sẽ lụi tàn theo thời gian. Cuộc đời không ai biết trước được ngày mai hãy sống hết mình cho ngày hôm nay để khi ra đi không có gì để hối tiếc. Hãy đừng quá đau buồn rồi mọi chuyện sẽ qua mau thôi.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

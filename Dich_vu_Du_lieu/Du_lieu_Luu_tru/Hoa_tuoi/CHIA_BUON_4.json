@@ -1,0 +1,27 @@
+{
+	"Ten": "Vệt Nắng Tan",
+	"Ma_so": "CHIA_BUON_4",
+	"Don_gia_Ban": 300000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Chia ly là điều không ai muốn. Nhưng ai có thể chống lại quy luật sinh, lão, bệnh, tử của tạo hóa. Ai rồi cũng phải ra đi vì thế hãy cứ an lòng và mong cho người ra đi được thanh thản. Kệ hoa chia buồn với tone màu vàng sẽ giúp bạn gửi lời chia buồn sâu sắc đến người nhận",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

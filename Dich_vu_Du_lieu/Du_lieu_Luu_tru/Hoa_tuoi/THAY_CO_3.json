@@ -1,0 +1,27 @@
+{
+	"Ten": "Bình Yên",
+	"Ma_so": "THAY_CO_3",
+	"Don_gia_Ban": 150000,
+	"Don_gia_Nhap": 100000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Bình yên để gió đưa em về. Bình yên ta chờ nghe. Chờ nghe tình vỗ lên tim mình. Chờ nghe tình lung linh. Bình yên để nắng soi môi thơm. Bình yên ta mừng. Cuộc đời ai cũng mong muốn được sống bình yên và hạnh phúc với người thân yêu của mình. Thích hợp tặng bất kỳ dịp nào mà bạn muốn làm bất ngờ cho người nhận",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

@@ -1,0 +1,27 @@
+{
+	"Ten": "Lời Chúc Thành Công",
+	"Ma_so": "THAY_CO_10",
+	"Don_gia_Ban": 1000000,
+	"Don_gia_Nhap": 800000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu đỏ",
+		"Ma_so":"DO"
+	},
+	
+	"Mo_ta":"Hoa hồng đỏ kết hợp cùng hoa hồng sen, cùng cát tường được cắm tròn đầy tượng trưng cho sự thành đạt, viên mãn, sung túc trong sự nghiệp và cuộc sống. Kèm theo đó là những cành lan vươn dài lên tượng trưng cho ngọn lửa của sự khát khao và ý chí vươn lên mạnh mẽ. Mẫu hoa là lời chúc thành công thích hợp dành tặng cho bạn bè, người thân, khách hàng nhân dịp sinh nhật, khai trương, kỉ niệm.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.3
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

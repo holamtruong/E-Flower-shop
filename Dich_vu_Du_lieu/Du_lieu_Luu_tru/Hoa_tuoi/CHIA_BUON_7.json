@@ -1,0 +1,27 @@
+{
+	"Ten": "Cõi Lành",
+	"Ma_so": "CHIA_BUON_7",
+	"Don_gia_Ban": 400000,
+	"Don_gia_Nhap": 300000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Cuộc đời sinh lão bệnh tử không ai biết trước, do vậy nếu chẳng may người quen, họ hàng, bạn bè qua đời thì hãy dành những lời chia buồn để làm vơi bớt nỗi đau với những người thân trong gia quyến đồng thời tỏ lòng tiếc thương, tiếc nuối và thành kính phân ưu với người đã khuất.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

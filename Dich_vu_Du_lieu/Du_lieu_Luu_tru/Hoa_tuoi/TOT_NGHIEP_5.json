@@ -1,0 +1,27 @@
+{
+	"Ten": "Trường Tồn Mãi Mãi",
+	"Ma_so": "TOT_NGHIEP_5",
+	"Don_gia_Ban": 2000000,
+	"Don_gia_Nhap": 1800000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Mừng Tốt Nghiệp",
+		"Ma_so": "TOT_NGHIEP" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Tạo nên dấu ấn của mình trên thế giới này rất khó. Nếu dễ thì bất cứ ai cũng đã làm rồi. Nhưng nó không dễ. Nó đòi hỏi sự kiên nhẫn, bổn phận, và nó đi cùng nhiều thất bại dọc đường. Và khi bạn đã có những thành công nhất định thì phải cố gắng và nỗ lực hơn nữa để cho sự thành công bền vững và trường tồn.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.2
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

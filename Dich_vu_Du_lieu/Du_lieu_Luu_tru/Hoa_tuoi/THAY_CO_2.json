@@ -1,0 +1,27 @@
+{
+	"Ten": "Vươn Xa",
+	"Ma_so": "THAY_CO_2",
+	"Don_gia_Ban": 450000,
+	"Don_gia_Nhap": 300000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Được thiết kế với tông màu nhẹ nhàng của hoa hồng vàng và cá tường trắng, mẫu hoa được thiết kế theo kiểu dáng cao tạo ra những đường nét sống động, hài hòa và thanh thoát. Giỏ hoa mang ý nghĩa của sự mạng mẽ và cố gắng vươn lên, thích hợp dành tặng cho người thân, bạn bè và đồng nghiệp nhân dịp khai trương, chúc mừng và những ngày hội hợp.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

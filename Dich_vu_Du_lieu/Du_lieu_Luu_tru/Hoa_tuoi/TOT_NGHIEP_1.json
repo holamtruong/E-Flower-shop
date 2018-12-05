@@ -1,0 +1,27 @@
+{
+	"Ten": "Sunny",
+	"Ma_so": "TOT_NGHIEP_1",
+	"Don_gia_Ban": 500000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Mừng Tốt Nghiệp",
+		"Ma_so": "TOT_NGHIEP" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VÀNG"
+	},
+	
+	"Mo_ta":"Bó hoa hướng dương dành cho người thân yêu của mình vào những dịp quan trọng thì còn gì tuyệt vời hơn nữa. Hoa hướng dương là loài hoa đại diện cho tình bạn, tình yêu, sự thăng tiến trong công việc, sự thành công trong học tập...Hướng về phía mặt trời và để lại bóng tối sau lưng.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

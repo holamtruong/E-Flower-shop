@@ -1,0 +1,27 @@
+{
+	"Ten": "Lời Cảm Ơn",
+	"Ma_so": "THAY_CO_7",
+	"Don_gia_Ban": 500000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Khi không còn trẻ nữa, chúng ta sẽ biết trân quý những mối quan hệ quanh mình hơn và đặc biệt là gia đình. Do đó, với mẫu hoa được thiết kế đặc biệt này, bạn có thể dành riêng cho các thành viên trong gia đình và những người bạn thân thiết vào những dịp đặc biệt với thông điệp Cảm ơn vì đã ở bên cạnh và ủng hộ tinh thần vào những lúc tôi khó khăn nhất.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

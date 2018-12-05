@@ -1,0 +1,27 @@
+{
+	"Ten": "Hồng Tươi",
+	"Ma_so": "THAY_CO_9",
+	"Don_gia_Ban": 100000,
+	"Don_gia_Nhap": 80000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Bó hoa hồng xinh xắn được thiết kế tông hồng nhạt từ những bông hoa hồng giống mới nở to và đẹp, phù hợp cho việc tặng phụ nữ trong các dịp chúc mừng, sinh nhật.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

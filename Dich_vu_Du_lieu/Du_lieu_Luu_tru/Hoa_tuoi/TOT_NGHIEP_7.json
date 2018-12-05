@@ -1,0 +1,27 @@
+{
+	"Ten": "Tương Lai Rực Rỡ",
+	"Ma_so": "TOT_NGHIEP_7",
+	"Don_gia_Ban": 300000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Mừng Tốt Nghiệp",
+		"Ma_so": "TOT_NGHIEP" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu đỏ",
+		"Ma_so":"DO"
+	},
+	
+	"Mo_ta":"Ngày vui khi có một bước tiến mới trong sự nghiệp. Với mong muốn họ có tương lai rực rỡ khi bước tiếp trên quãng đường mới. Tương lai sự nghiệp trước sau đắp bồi xin chúc gia đình ban tôi. Kệ hoa chúc mừng này sẽ là lời chúc tuyệt vời nhất gửi đến họ trong ngày vui này.Thích hợp tặng dịp khai trương, kỷ niệm thành lập",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

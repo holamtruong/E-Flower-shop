@@ -1,0 +1,27 @@
+{
+	"Ten": "Rạng Ngời",
+	"Ma_so": "TOT_NGHIEP_6",
+	"Don_gia_Ban": 1000000,
+	"Don_gia_Nhap": 900000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Mừng Tốt Nghiệp",
+		"Ma_so": "TOT_NGHIEP" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Tone màu vàng rực rỡ và rạng ngời của hoa ly và hoa hồng cam lửa. Kệ hoa thật rạng ngời như lời chúc cho tương lai trong sự nghiệp của bạn bè, người thân hay dành cho những đối tác lâu năm quan trọng.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

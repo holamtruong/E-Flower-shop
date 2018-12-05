@@ -1,0 +1,27 @@
+{
+	"Ten": "Kính Trọng",
+	"Ma_so": "THAY_CO_1",
+	"Don_gia_Ban": 350000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Những đóa sen tươi thắm đang đua nhau khoe sắc màu cao quý và sang trọng kính tặng ông bà, cha mẹ, thầy cô, những người lớn tuổi,... để thể hiện lòng hiếu thảo, sự biết ơn vô bờ bến của con cháu, của học trò và kính chúc ông bà, cha mẹ, thầy cô sức khỏe thật dồi dào và vui vẻ. Thích hợp để tặng chúc mừng, kỉ niệm,...",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.2
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

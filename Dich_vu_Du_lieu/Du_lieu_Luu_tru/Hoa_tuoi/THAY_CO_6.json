@@ -1,0 +1,27 @@
+{
+	"Ten": "Chân Tình",
+	"Ma_so": "THAY_CO_6",
+	"Don_gia_Ban": 40000,
+	"Don_gia_Nhap": 300000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Như anh được sống giây phút đầu tiên. Có em tận đến những giây cuối cùng. Suốt cuộc đời anh không quên chân tình dành hết cho em lời bài hát chân tình chính là cảm hứng cho những florist sáng tạo nên bó hoa này. Giản dị nhưng vẫn đầy vẻ cuốn hút chắc chắn sẽ là món quà tuyệt vời dành cho người thân yêu của bạn",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

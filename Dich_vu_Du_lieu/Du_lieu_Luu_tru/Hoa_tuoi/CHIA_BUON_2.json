@@ -1,0 +1,27 @@
+{
+	"Ten": "Người Xa Khuất",
+	"Ma_so": "CHIA_BUON_2",
+	"Don_gia_Ban": 700000,
+	"Don_gia_Nhap": 600000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu trắng",
+		"Ma_so":"TRANG"
+	},
+	
+	"Mo_ta":"Cuộc sống nào ai biết trước được điều gì. Hôm qua còn đang nói chuyện vui cười, hôm nay đã mỗi người mỗi thế giới khác. Người đã xa khuất rồi bạn cũng đừng quá đau buồn hãy mạnh mẽ lên để họ được yên giấc ngàn thu",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

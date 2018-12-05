@@ -1,0 +1,27 @@
+{
+	"Ten": "Màu Lưu Luyến",
+	"Ma_so": "CHIA_BUON_10",
+	"Don_gia_Ban": 800000,
+	"Don_gia_Nhap": 700000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
+	},
+	
+	"Mo_ta":"Sự ra đi đột ngột của người đã khuất luôn để lại niềm tiếc thương vô hạn đối với người ở lại. Càng dành tình cảm cho nhau nhiều thì lại càng lưu luyến nhau, chẳng nỡ xa rời. Kệ hoa chia buồn “Màu lưu luyến” bày tỏ những cảm xúc chân tình với người đã khuất, mong rằng người đã ra đi sẽ sớm đến được bến bờ bình yên.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

@@ -1,0 +1,27 @@
+{
+	"Ten": "Thành Kính",
+	"Ma_so": "CHIA_BUON_8",
+	"Don_gia_Ban": 700000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Hoa tang lễ chính là cách để người ta gửi đến người quá cố lòng tiếc thương vô hạn và thành kính phân ưu, đồng thời chia buồn cùng với người thân của họ. Màu tím từ lâu đã được biết đến như là một màu “hoàng gia”, liên quan đến các nghi lễ kín đáo với vẻ trang nghiêm, niềm tự hào và thành công. Màu tím cũng là biểu tượng của thành tựu, sự tôn trọng và kính cẩn khi một cuộc sống vừa kết thúc.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

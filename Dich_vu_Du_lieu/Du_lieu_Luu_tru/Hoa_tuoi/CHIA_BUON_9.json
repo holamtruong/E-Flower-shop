@@ -1,0 +1,27 @@
+{
+	"Ten": "Vô Thường",
+	"Ma_so": "CHIA_BUON_9",
+	"Don_gia_Ban": 800000,
+	"Don_gia_Nhap": 600000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu trắng",
+		"Ma_so":"TRANG"
+	},
+	
+	"Mo_ta":"Cuộc sống và vạn vật quanh chúng ta, từng giờ từng phút luôn luôn biến đổi theo không gian và thời gian, không có gì tồn tại vĩnh viễn. Đó chính là “Vô thường”, nghĩa là không có gì thường xuyên trường tồn mãi mãi. Vì thế cũng đến giây phút người thân quanh ta cũng phải ra đi dù ta không muốn. Hãy cùng hoayeuthuong.com chia sẻ nỗi buồn mất mát to lớn trong giây phút đó bằng kệ hoa chia buồn bạn nhé.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.2
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

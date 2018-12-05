@@ -1,0 +1,27 @@
+{
+	"Ten": "Khởi Đầu Mới",
+	"Ma_so": "TOT_NGHIEP_4",
+	"Don_gia_Ban": 300000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Mừng Tốt Nghiệp",
+		"Ma_so": "TOT_NGHIEP" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Cuộc sống không ai lường trước được điều gì. Có khi thành công vang dội, có khi thất bại trong công việc. Nhưng bạn ơi, dù xảy ra chuyện gì thì ngày mới luôn đến. Ngày mới đến đó là thời điểm cho chúng ta bắt đầu lại sau những thất bại hay còn gọi là "Khởi Đầu Mới". Cùng chúc cho những dự định mới với giỏ hoa tone đỏ rực rỡ này bạn nhé.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

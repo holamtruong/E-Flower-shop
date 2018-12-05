@@ -1,0 +1,27 @@
+{
+	"Ten": "Ngày Xanh",
+	"Ma_so": "THAY_CO_4",
+	"Don_gia_Ban": 250000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu xanh",
+		"Ma_so":"XANH"
+	},
+	
+	"Mo_ta":"Với những bông hoa tươi thắm và một chút biến hóa khéo léo của đôi bàn tay tài ba, Ngày xanh như một bản tình ca dịu dàng, xanh mát và tràn đầy sức sống gửi đến người mà bạn yêu thương. ",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

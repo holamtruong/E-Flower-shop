@@ -1,0 +1,27 @@
+{
+	"Ten": "Heaven",
+	"Ma_so": "CHIA_BUON_6",
+	"Don_gia_Ban": 500000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
+	},
+	
+	"Mo_ta":"Với tone màu tím chủ đạo thêm màu trắng kệ hoa trông thật sang trọng thể hiện sự chia buồn sâu sắc cũng như san sẻ cùng với nỗi đau của gia quyến người đã khuất. Hãy cùng cầu nguyện cho người ra đi được thanh thản, nhẹ nhàng trong những nấc thang lên thiên đường.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

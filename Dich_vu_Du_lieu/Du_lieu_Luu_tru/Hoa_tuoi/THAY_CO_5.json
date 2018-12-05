@@ -1,0 +1,27 @@
+{
+	"Ten": "Niềm Tin Vững Vàng",
+	"Ma_so": "THAY_CO_5",
+	"Don_gia_Ban": 450000,
+	"Don_gia_Nhap": 300000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Với tone màu vàng và hoa hồng cam lửa như nhiệt huyết tuổi trẻ. Luôn bùng cháy và tâm huyết với tất cả những việc đang làm để xây dựng tương lai tươi sáng với niềm tin vững vàng được gửi gắm trong hộp hoa này",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

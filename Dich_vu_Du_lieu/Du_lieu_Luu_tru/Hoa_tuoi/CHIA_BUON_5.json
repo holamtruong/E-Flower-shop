@@ -1,0 +1,27 @@
+{
+	"Ten": "Giọt Lệ",
+	"Ma_so": "CHIA_BUON_5",
+	"Don_gia_Ban": 400000,
+	"Don_gia_Nhap": 300000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Chia Buồn",
+		"Ma_so": "CHIA_BUON" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
+	},
+	
+	"Mo_ta":"Giọt nước mắt rơi khi người thân của ta ra đi mãi mãi. Để lại cho người ở lại nỗi đau khôn nguôi. Họ khóc khi gặp phải sự mất mát to lớn nên hơn hết vào những lúc này họ cần sự động viên an ủ bằng kệ hoa chia buồn này nhé.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

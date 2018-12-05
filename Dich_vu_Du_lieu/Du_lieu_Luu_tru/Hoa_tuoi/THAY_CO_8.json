@@ -1,0 +1,27 @@
+{
+	"Ten": "Bản Tình Ca",
+	"Ma_so": "THAY_CO_8",
+	"Don_gia_Ban": 750000,
+	"Don_gia_Nhap": 800000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tặng Thầy Cô",
+		"Ma_so": "THAY_CO" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Hộp hoa với tone màu vàng rực rỡ phối hợp với nhiều loại hoa tạo nên cảm giác ấm áp, chan chứa tình yêu. Như "bản tình ca" được cất lên giúp gắn kết thêm tình cảm của những người thân yêu nhau thích hợp tặng sinh nhật, kỉ niệm, khai trương",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

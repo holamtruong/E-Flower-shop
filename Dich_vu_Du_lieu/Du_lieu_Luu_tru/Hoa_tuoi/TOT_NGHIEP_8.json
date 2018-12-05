@@ -1,0 +1,27 @@
+{
+	"Ten": "Thành Đạt",
+	"Ma_so": "TOT_NGHIEP_8",
+	"Don_gia_Ban": 400000,
+	"Don_gia_Nhap": 300000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Mừng Tốt Nghiệp",
+		"Ma_so": "TOT_NGHIEP" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Thành đạt là khái niệm chỉ sự cân đối giữa mục tiêu đặt ra và phương pháp thực hiện mục tiêu của cá nhân. Công việc luôn phát triển thuận lợi, hạnh phúc trong cuộc sống tình cảm thì đó là sự thành đạt viên mãn mà ai cũng muốn hướng tới. Thích hợp tặng dịp khai trương, kỷ niệm thành lập...",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.2
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}
