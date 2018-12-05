@@ -1,3 +1,4 @@
 # E-Flower-shop
-Dự án Shop hoa thương mại điện tử 
-- Bắt đầu dự án - 04/12/2018
+DỰ ÁN "E-FLOWER SHOP":
+- 04/12/2018: Bắt đầu dự án
+- 05/12/2018: Thiết kế dữ liệu Hoa; Lựa chọn giao diện UI Kit
