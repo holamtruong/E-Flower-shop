@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Sự Quan Tâm",
+	"Ma_so": "TINH_YEU_2",
+	"Don_gia_Ban": 500000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Bó hoa hồng vàng được thiết kế xen kẽ cẩm chướng vàng thể hiện sự kính trọng và quan tâm đến người nhận. Sự quan tâm được thể hiện qua bó hoa này rất tinh tế và sang trọng. Thích hợp tặng cho bạn nam và người thích tone màu vàng trong những dịp đặc biệt",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.5
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

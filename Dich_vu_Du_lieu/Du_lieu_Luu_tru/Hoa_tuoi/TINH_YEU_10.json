@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Pretty Girl",
+	"Ma_so": "TINH_YEU_10",
+	"Don_gia_Ban": 500000,
+	"Don_gia_Nhap": 450000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Em là cô gái anh thương nhất. Nét dễ thương của em đã làm anh thao thức từng ngày trôi. Bó hoa với hoa hồng tím phối hợp cùng cẩm chướng trắng như cô gái dễ thương và ngại ngùng khi lần đầu biết yêu.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

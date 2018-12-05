@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Người Tôi Thương",
+	"Ma_so": "TINH_YEU_7",
+	"Don_gia_Ban": 500000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Trong cuộc sống anh trải qua rất nhiều áp lực nhưng em có biết không, niềm vui anh có được chính là có em. Có nhiều niềm vui giản đơn là mỗi sớm mai có em trong vòng tay, được ngắm nhìn nụ cười của em cũng đủ xóa tan mệt mỏi trong anh và đó là Người Tôi Thương",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

@@ -1,0 +1,27 @@
+{
+	"Ten": "Khúc Ca Mê Ly",
+	"Ma_so": "SINH_NHAT_3",
+	"Don_gia_Ban": 800000,
+	"Don_gia_Nhap": 700000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Với tone màu vàng đậm của hoa hồng vàng và sự nhẹ nhàng của hoa hồng da và hoa hồng trứng gà, điểm xuyết cùng tone lạnh của green wicky tạo ra khúc ca mê ly của các loài hoa nhằm cầu chúc cho tất cả mọi người có cuộc sống vui vẻ hạnh phúc , gặt hái nhiều thành công trong công việc. Thích hợp dành tặng cho các dịp khai trương, tân gia, thăng chức...",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

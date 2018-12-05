@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Giấc Mơ Tình Yêu",
+	"Ma_so": "TINH_YEU_9",
+	"Don_gia_Ban": 600000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Anh không là nhà thơ. Cũng không là thi sĩ. Bởi buổi chiều chỉ nhớ. Một hình bóng yêu thương. Giấc mơ của anh là được bên em. Tình yêu của anh và em tỏa sáng hơn cả bầu trời chiều tím soi rọi cho giấc mơ của 2 ta.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

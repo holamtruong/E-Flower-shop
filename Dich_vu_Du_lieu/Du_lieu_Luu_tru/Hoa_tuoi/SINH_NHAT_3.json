@@ -1,0 +1,27 @@
+{
+	"Ten": "Nắng Yêu Thương",
+	"Ma_so": "SINH_NHAT_3",
+	"Don_gia_Ban": 1800000,
+	"Don_gia_Nhap": 1200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Được thiết kế hài hòa giữa tông màu nhẹ của hoa cúc PingPong và hoa hồng vàng tạo ra những đường nét hài hòa, nhẹ nhàng.Là những cánh địa lan đầy nét tinh khiết hay hơi thở của các loài ngưng tự lại tạo nên sắc vàng của sự thành công, của màu nắng yêu thương hằng ngày sưởi ấm con tim mỗi người chúng ta. Thích hợp tặng cho người thân,bạn bè đồng nghiệp trong ngày khai trương, chúc mừng và những ngày hội họp.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.2
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Gold Love",
+	"Ma_so": "TINH_YEU_3",
+	"Don_gia_Ban": 300000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Sắc vàng rực rỡ của hoa hồng như một tình yêu dài lâu. Dù mai ra sau thì 2 ta vẫn sẽ luôn bên nhau. Một thứ tình yêu mộc mạc, bình dị không cần quá cầu kỳ nhưng vẫn luôn sắc son bền vững. Đừng vì những phút giận hờn, vì những cái tôi của bản thân mình mà đánh mất đi thứ hạnh phúc mà mình đang có bạn nhé.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

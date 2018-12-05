@@ -1,0 +1,27 @@
+{
+	"Ten": "For You",
+	"Ma_so": "SINH_NHAT_8",
+	"Don_gia_Ban": 200000,
+	"Don_gia_Nhap": 100000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Một ngàn lời ca ngọt ngào cũng không bằng một lời nói chân thành xuất phát từ tận trái tim và đôi khi chỉ cần những hành động quan tâm đúng lúc và một bó hoa vào những ngày đặc biệt hoặc gây bất ngờ vào những dịp cuối tuần cũng có thể nói lên trọn tấm chân tình của bạn. Bó hoa được thiết kế cầu kỳ với nhiều màu sắc nhẹ nhàng nhưng vẫn nổi bật sẽ là sự lựa chọn ý nghĩa dành tặng cho những người mà bạn yêu mến họ rất nhiều nhưng không thể hiện được lời nói.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

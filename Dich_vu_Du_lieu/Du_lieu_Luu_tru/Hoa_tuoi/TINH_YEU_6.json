@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Điều mong ước",
+	"Ma_so": "TINH_YEU_6",
+	"Don_gia_Ban": 600000,
+	"Don_gia_Nhap": 500000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Điều mong ước lớn nhất trong anh là sự hạnh phúc của em. Anh có thể làm mọi điều chỉ mong em hạnh phúc. Dù có chuyện gì xảy đến hãy vững tin rằng vẫn còn có anh. Anh vẫn luôn bên em để bước đi cùng với nhau. Tháng ngày bên nhau đến cuôi con đường",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

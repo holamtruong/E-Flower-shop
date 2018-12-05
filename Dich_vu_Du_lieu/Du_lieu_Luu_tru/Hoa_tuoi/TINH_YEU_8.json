@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "My dream",
+	"Ma_so": "TINH_YEU_8",
+	"Don_gia_Ban": 500000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
+	},
+	
+	"Mo_ta":"Màu tím là màu của sự mộng mơ, những giấc mơ chứa đựng nhiều điều tốt đẹp mà chúng ta đang cố gắng xây dựng trong đời thực. Có nhiều dạng giấc mơ nhưng giấc mơ của anh là được thấy em mỗi ngày với nụ cười hạnh phúc trên môi là đủ rồi. My dream - my love",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

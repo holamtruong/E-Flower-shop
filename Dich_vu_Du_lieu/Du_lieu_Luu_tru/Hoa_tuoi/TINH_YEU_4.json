@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Tương tư",
+	"Ma_so": "TINH_YEU_4",
+	"Don_gia_Ban": 1000000,
+	"Don_gia_Nhap": 800000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Tương tư như một giấc mơ, lang thang đi khắp bốn phương tìm kiếm một hình bóng quen thuộc. Và em là người đã làm anh tương tư quên tháng ngày. Chỉ cần nhìn thấy em, được nói chuyện với em cũng đủ làm anh cảm thấy hạnh phúc. Thích hợp tặng sinh nhật, làm quen, kỉ niệm...",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.05
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

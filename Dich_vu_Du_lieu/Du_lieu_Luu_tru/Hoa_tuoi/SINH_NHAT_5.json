@@ -1,0 +1,27 @@
+{
+	"Ten": "Red Roses",
+	"Ma_so": "SINH_NHAT_5",
+	"Don_gia_Ban": 700000,
+	"Don_gia_Nhap": 500000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu đỏ",
+		"Ma_so":"DO"
+	},
+	
+	"Mo_ta":"Bình hoa với hoa hồng đỏ là chủ đạo được bạn florist thiết kế đặc biệt dùng để tặng cho những fan cuồng hoa hồng đỏ. Loài hoa được yêu thích nhất trong các màu của hoa hồng. Bình hoa sẽ là món quà tuyệt vời dành tặng cho người thân yêu của bạn",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

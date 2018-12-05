@@ -1,0 +1,27 @@
+{
+	"Ten": "For Gentlemen",
+	"Ma_so": "SINH_NHAT_6",
+	"Don_gia_Ban": 800000,
+	"Don_gia_Nhap": 600000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
+	},
+	
+	"Mo_ta":"Với tone màu vàng chủ đạo của hoa hướng dương và hoa hồng vàng. Hộp hoa này được các bạn florist phối hợp giữa nhiều loại hoa cùng nhiều màu sắc rực rỡ dành cho những quý ông lịch lãm, sang trọng.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

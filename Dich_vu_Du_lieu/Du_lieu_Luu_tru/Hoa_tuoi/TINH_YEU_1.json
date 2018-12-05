@@ -1,16 +1,26 @@
 {
-	"Ten": "Purple Love",
+	"Ten": "Memory Of Love",
 	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Don_gia_Ban": 450000,
+	"Don_gia_Nhap": 300000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Bó hoa của những dịu dàng, những ngây thơ và cả những hoài niệm về những phút giây đầu gặp gỡ. Ký ức về tình yêu đôi ta thật tự nhiên, đằm thắm mà vẫn để lại biết bao xúc cảm trong lòng của ta. Đó là những kỉ niệm đẹp, chỉ nghĩ cần đến thôi thì nụ cười hạnh phúc bất chợt nở trên môi.",
+	
 	"Trang_thai": {
-		"Khuyen_mai": true,
-		"Hang_moi": true
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.2
 	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

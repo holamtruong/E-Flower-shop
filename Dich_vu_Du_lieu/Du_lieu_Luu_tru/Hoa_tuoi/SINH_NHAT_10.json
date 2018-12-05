@@ -1,0 +1,27 @@
+{
+	"Ten": "Tuổi Xanh",
+	"Ma_so": "SINH_NHAT_10",
+	"Don_gia_Ban": 300000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu xanh",
+		"Ma_so":"XANH"
+	},
+	
+	"Mo_ta":"Mẫu hoa được thiết kế đặc biệt với sự pha trộn giữa tông màu xanh lá tươi mát của thiên nhiên và tông màu xanh dương mạnh mẽ, giỏ hoa mang thông điệp của sự phát triển mạnh mẽ, hoa thuận và tươi mát thích hợp dành tặng các bạn nam vào những dịp đặc biệt như sinh nhật, chúc mừng kỉ niệm và thăng chức.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

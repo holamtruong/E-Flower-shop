@@ -1,0 +1,27 @@
+{
+	"Ten": "Hy Vọng",
+	"Ma_so": "SINH_NHAT_9",
+	"Don_gia_Ban": 300000,
+	"Don_gia_Nhap": 200000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Kết hợp màu",
+		"Ma_so":"KET_HOP"
+	},
+	
+	"Mo_ta":"Khi ta gặp khó khăn chúng ta luôn cố gắng để vượt qua chỉ với hy vọng tương lai sẽ tươi sáng hơn. Hộp hoa hy vọng này sẽ giúp bạn gửi những hy vọng gửi gắm của bạn đến người bạn yêu mến với ước mong sẽ tiếp thêm sức cho họ vượt qua những khó khăn trong cuộc sống",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": false,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

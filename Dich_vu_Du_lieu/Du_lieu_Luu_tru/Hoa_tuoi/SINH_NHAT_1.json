@@ -1,0 +1,27 @@
+{
+	"Ten": "Điều Giản Dị",
+	"Ma_so": "SINH_NHAT_1",
+	"Don_gia_Ban": 450000,
+	"Don_gia_Nhap": 400000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Giỏ hoa được cắm tròn 2 mặt với thiết kế chủ đạo là hoa hồng sen màu hồng phấn nhẹ nhàng và tao nhã, cùng cẩm chướng hồng phối hợp xen kẽ nhau tạo nên một sản phẩm hoa thu hút ngay từ ánh nhìn đầu tiên. Tuy giản dị, mộc mạc nhưng chắc chắn sẽ là món quà ý nghĩa tuyệt vời dành tặng cho những người thân yêu của mình.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}

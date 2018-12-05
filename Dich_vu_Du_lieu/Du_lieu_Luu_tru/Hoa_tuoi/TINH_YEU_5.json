@@ -1,12 +1,26 @@
 {
-	"Ten": "Purple Love",
-	"Ma_so": "TINH_YEU_1",
-	"Don_gia_Ban": "2000000",
-	"Don_gia_Nhap": "1000000",
-	"Nhom_hoa": {
-		"Ten": "Tình Yêu",
-		"Ma_so": "TINH_YEU"
+	"Ten": "Yêu Thương Dịu Dàng",
+	"Ma_so": "TINH_YEU_5",
+	"Don_gia_Ban": 1200000,
+	"Don_gia_Nhap": 1000000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Tình Yêu",
+		"Ma_so": "TINH_YEU" 
 	},
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
+	},
+	
+	"Mo_ta":"Trên thế gian này chẳng có gì là hoàn mỹ, càng không tồn tại một người thực sự hoàn hảo, thế nhưng, dưới đôi mắt bao dung của một trái tim yêu thương chân thành, mọi khiếm khuyết đều trở nên toàn vẹn đến kỳ lạ. Chẳng có tình yêu nào vĩnh cửu chỉ có những giây phút vĩnh cửu của tình yêu. Hãy trân trọng những giây phút đó nhé.",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0.1
+	},
+
 	"Danh_sach_Phieu_Dat": [],
 	"Danh_sach_Phieu_Ban": []
 	

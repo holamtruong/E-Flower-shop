@@ -1,0 +1,27 @@
+{
+	"Ten": "Dấu Yêu",
+	"Ma_so": "SINH_NHAT_7",
+	"Don_gia_Ban": 900000,
+	"Don_gia_Nhap": 800000,
+	
+	"Chu_de": {
+		"Ten": "Hoa Sinh Nhật",
+		"Ma_so": "SINH_NHAT" 
+	},
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
+	},
+	
+	"Mo_ta":"Có một số người mãi mãi khắc ghi trong ký ức, cho dù đã quên mất giọng nói, nụ cười, khuôn mặt ấy, nhưng mỗi khi nhớ về người đó, cảm xúc không bao giờ thay đổi, vẫn nguyên cảm giác ấy - cảm giác dấu yêu - khi được đi bên cạnh nhau. Khoảnh khắc dấu yêu luôn là khoảnh khắc khó phai trong cuộc đời mỗi người. Thích hợp tặng dịp sinh nhật, xin lỗi, kỉ niệm làm quen...",
+	
+	"Trang_thai": {
+		"Hang_moi_ve": true,
+		"Ti_le_khuyen_mai": 0
+	},
+
+	"Danh_sach_Phieu_Dat": [],
+	"Danh_sach_Phieu_Ban": []
+	
+}
