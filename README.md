@@ -5,4 +5,5 @@ DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
 - 06/12/2018: Cập nhật dữ liệu 5 chủ đề hoa (data + media)
 - 07/12/2018: Hoàn thành giao diện chính
 - 21/12/2018: Cập nhật Dịch vụ dữ liệu: đọc danh sách hoa + thông tin cửa hàng
+- 22/12/2018: Cập nhật Dịch vụ media
 
