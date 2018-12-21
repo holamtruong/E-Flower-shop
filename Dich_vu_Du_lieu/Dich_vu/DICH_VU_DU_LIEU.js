@@ -1,12 +1,15 @@
 // Khai báo sử dụng module HTTP truyền dữ liệu
 var NodeJs_Dich_vu = require("http")
 
-// Gọi kết quả của xử lý dữ liệu lưu trữ
+// Gọi kết quả của module xử lý dữ liệu lưu trữ
 var Luu_tru = require("../Xu_ly/XU_LY_LUU_TRU")
+
+//Khai báo sử dụng module xử lý tham số truy vấn
+var Xu_ly_Tham_so = require('querystring')
 
 // Khai báo cổng giao tiếp
 var Port = 1000
-var Xu_ly_Tham_so = require('querystring')
+
 
 // Khởi tạo dữ liệu kiểu đối tượng
 var Du_lieu = {}
