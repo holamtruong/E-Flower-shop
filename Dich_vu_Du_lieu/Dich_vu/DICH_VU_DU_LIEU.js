@@ -14,7 +14,7 @@ var Port = 1000
 // Khởi tạo dữ liệu kiểu đối tượng
 var Du_lieu = {}
 // Khởi tạo dữ liệu danh sách hoa tươi
-Du_lieu.Danh_sach_hoa = Luu_tru.Doc_Du_lieu("Hoa_tuoi")
+Du_lieu.Danh_sach_Hoa = Luu_tru.Doc_Du_lieu("Hoa_tuoi")
 // Khởi tạo dữ liệu thông tin cửa hàng
 Du_lieu.Cua_hang = Luu_tru.Doc_Thong_tin_Cua_hang()
 
@@ -29,10 +29,10 @@ var Dich_vu = NodeJs_Dich_vu.createServer((Yeu_cau, Dap_ung) => {
         var Chuoi_Kq = ""
 
         // Đọc danh sách dữ liệu lưu trữ
-        if (Ma_so_Xu_ly == "Doc_danh_sach_du_lieu") {
+        if (Ma_so_Xu_ly == "Doc_danh_sach_Du_lieu") {
             var Doi_tuong_Kq = {}
             // Gán danh sách dữ liệu hoa và thông tin cửa hàng
-            Doi_tuong_Kq.Danh_sach_hoa = Du_lieu.Danh_sach_hoa
+            Doi_tuong_Kq.Danh_sach_Hoa = Du_lieu.Danh_sach_Hoa
             Doi_tuong_Kq.Cua_hang = Du_lieu.Cua_hang
             // Chuyển kết quả về dạng chuỗi
             Chuoi_Kq = JSON.stringify(Doi_tuong_Kq)
@@ -57,5 +57,7 @@ Dich_vu.listen(Port,
 
 
 //Test kết quả
-console.log(Du_lieu.Danh_sach_hoa)
+console.log("----Danh sách hoa:---")
+console.log(Du_lieu.Danh_sach_Hoa)
+console.log("----Thông tin cửa hàng:------")
 console.log(Du_lieu.Cua_hang)
