@@ -7,4 +7,5 @@ DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
 - 21/12/2018: Cập nhật Dịch vụ dữ liệu: đọc danh sách hoa + thông tin cửa hàng
 - 22/12/2018: Cập nhật Dịch vụ media
 - 23/12/2018: Cập nhật Màn hình chính (MH_Danh_sach_Hoa): Lấy dữ liệu từ "Dịch vụ dữ liêu" và "Dịch vụ media" 
+- 25/12/2018: Cập nhật Màn hình chính (MH_Danh_sach_Hoa): Xuất thể hiện danh sách hoa (card)
 

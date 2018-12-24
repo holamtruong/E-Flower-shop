@@ -57,7 +57,5 @@ Dich_vu.listen(Port,
 
 
 //Test kết quả
-console.log("----Danh sách hoa:---")
-console.log(Du_lieu.Danh_sach_Hoa)
-console.log("----Thông tin cửa hàng:------")
-console.log(Du_lieu.Cua_hang)
+console.log("----Kiểm tra kết quả---")
+console.log(Du_lieu)

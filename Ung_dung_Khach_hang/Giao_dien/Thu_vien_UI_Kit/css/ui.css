@@ -153,8 +153,8 @@ a:hover {
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left top, right bottom, from(#007bff), to(#007bff));
-  background: linear-gradient(to bottom right, #007bff, #007bff);
+  background: -webkit-gradient(linear, left top, right bottom, from(#006ee4), to(#007bff));
+  background: linear-gradient(to bottom right, #196cc4, #007bff);
   /* Standard syntax */
   -webkit-transition: .5s;
   transition: .5s; }
@@ -2042,10 +2042,19 @@ ul.row, ul.row-sm {
     display: block; }
 
 .price-new, .price {
-  margin-right: 5px; }
+  margin-right: 5px;
+  color: #242424;
+  font-weight: 500;
+  text-align: left;
+ }
 
 .price-old {
-  color: #999; }
+  color: #999;
+  font-size: 11px;
+  text-decoration: line-through;
+  text-align: left;
+  font-weight: 300;
+ }
 
 .notify {
   position: absolute;
