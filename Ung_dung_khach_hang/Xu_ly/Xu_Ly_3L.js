@@ -48,31 +48,52 @@ function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha) {
     Th_Cha.innerHTML = ""
     Danh_sach.forEach(Hoa_tuoi => {
         // Kiểm tra trạng thái sản phẩm
-        var Gia_goc = Hoa_tuoi.Don_gia_Ban
-        Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai))
+        var Gia_goc = Hoa_tuoi.Don_gia_Ban  //number
+        var Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai))  //number
+        var Hang_moi = Hoa_tuoi.Trang_thai.Hang_moi_ve  //true - false
         if (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai != 0) {
-            
-            console.log(Hoa_tuoi.Ten + "; - Giảm giá: " + (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai) * 100 + "%; Giá cũ:" + (Gia_goc) + "; Giá KM:" + (Gia_khuyen_mai))
+
+            console.log(Hoa_tuoi.Ten + "; - Giảm giá: " + (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai) * 100 + "%; Giá cũ:" + (Gia_goc) + "; Giá KM:" + (Gia_khuyen_mai) + "; mới: " + Hang_moi)
         } else {
-            console.log(Hoa_tuoi.Ten + "; - SP không khuyến mãi" + "; Giá bán:" + (Gia_goc))
+            console.log(Hoa_tuoi.Ten + "; - SP không khuyến mãi" + "; Giá bán:" + (Gia_goc) + "; mới:  " + Hang_moi)
         }
-        // Thể hiện sản phẩm
+        // Thể hiện card sản phẩm
         var The_hien = document.createElement("div")
         The_hien.className = "col-md-2"
         var Noi_dung_HTML_card = `
-            <figure class="card card-product">
-           
-                <div class="img-wrap"> <img src="${Dia_chi_Dich_vu_Media}/${Hoa_tuoi.Ma_so}.jpg"></div>
-                <figcaption class="info-wrap">
-                    <h6 class="title "><a href="#">${Hoa_tuoi.Ten}</a></h6>
-                    <div class="price-wrap">
-                        <!-- Giá cũ -->
-                            <span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} đ</span>
-                        <!-- Giá KM -->
-                            <del class="price-old">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</del>
-                    </div> 
-                </figcaption>
+            <figure class="card card-product">`
+
+        if (Hang_moi) {
+            Noi_dung_HTML_card += 
+            `<span class="badge-new"> Mới </span>
+            <div class="img-wrap"> <img src="${Dia_chi_Dich_vu_Media}/${Hoa_tuoi.Ma_so}.jpg"></div>
+            <figcaption class="info-wrap">
+            <h6 class="title "><a href="#">${Hoa_tuoi.Ten}</a></h6>
+            <div class="price-wrap">`
+
+        } else {
+            Noi_dung_HTML_card += 
+            `<div class="img-wrap"> <img src="${Dia_chi_Dich_vu_Media}/${Hoa_tuoi.Ma_so}.jpg"></div>
+            <figcaption class="info-wrap">
+            <h6 class="title "><a href="#">${Hoa_tuoi.Ten}</a></h6>
+            <div class="price-wrap">`
+        }
+
+        if (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai!=0) {
+            Noi_dung_HTML_card +=  
+            `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} đ</span>
+            <del class="price-old">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</del>
+            </div> 
+            </figcaption>
             </figure>`
+        } else {
+            Noi_dung_HTML_card += 
+            `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</span>
+            </div> 
+            </figcaption>
+            </figure>`
+        }
+
         The_hien.innerHTML = Noi_dung_HTML_card
         Th_Cha.appendChild(The_hien)
     })
