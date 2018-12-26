@@ -43,6 +43,21 @@ function Xuat_Thong_tin_Cua_hang(Cua_hang, Thamso_Ten, Thamso_Diachi, Thamso_Die
     Thamso_logo.innerHTML = HTML_Logo;
 }
 
+// *********** Hàm ghi phiếu đặt hàng vào Giỏ hàng ***********
+
+function Ghi_Phieu_Dat_hang(DsPhieu_dat) {
+    var Kq = ""
+    var Xu_ly_HTTP = new XMLHttpRequest()
+    var Tham_so = `Ma_so_Xu_ly=Ghi_Phieu_Dat_hang`
+    var Dia_chi_Xu_ly = `${Dia_chi_Dich_vu}?${Tham_so}`
+    Xu_ly_HTTP.open("POST", Dia_chi_Xu_ly, false)
+    var Chuoi_goi = JSON.stringify(DsPhieu_dat)
+    Xu_ly_HTTP.send(Chuoi_goi)
+    Kq = Xu_ly_HTTP.responseText
+    return Kq
+}
+
+
 // *********** Hàm xuất và thể hiện Danh sách hoa ***********
 function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha) {
     Th_Cha.innerHTML = ""
@@ -51,12 +66,7 @@ function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha) {
         var Gia_goc = Hoa_tuoi.Don_gia_Ban  //number
         var Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai))  //number
         var Hang_moi = Hoa_tuoi.Trang_thai.Hang_moi_ve  //true - false
-        if (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai != 0) {
 
-            console.log(Hoa_tuoi.Ten + "; - Giảm giá: " + (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai) * 100 + "%; Giá cũ:" + (Gia_goc) + "; Giá KM:" + (Gia_khuyen_mai) + "; mới: " + Hang_moi)
-        } else {
-            console.log(Hoa_tuoi.Ten + "; - SP không khuyến mãi" + "; Giá bán:" + (Gia_goc) + "; mới:  " + Hang_moi)
-        }
         // Thể hiện card sản phẩm
         var The_hien = document.createElement("div")
         The_hien.className = "col-md-2"
@@ -64,47 +74,73 @@ function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha) {
             <figure class="card card-product">`
 
         if (Hang_moi) {
-            Noi_dung_HTML_card += 
-            `<span class="badge-new"> Mới </span>
+            Noi_dung_HTML_card +=
+                `<span class="badge-new"> Mới </span>
             <div class="img-wrap"> <img src="${Dia_chi_Dich_vu_Media}/${Hoa_tuoi.Ma_so}.jpg"></div>
             <figcaption class="info-wrap">
             <h6 class="title "><a href="#">${Hoa_tuoi.Ten}</a></h6>
             <div class="price-wrap">`
 
         } else {
-            Noi_dung_HTML_card += 
-            `<div class="img-wrap"> <img src="${Dia_chi_Dich_vu_Media}/${Hoa_tuoi.Ma_so}.jpg"></div>
+            Noi_dung_HTML_card +=
+                `<div class="img-wrap"> <img src="${Dia_chi_Dich_vu_Media}/${Hoa_tuoi.Ma_so}.jpg"></div>
             <figcaption class="info-wrap">
             <h6 class="title "><a href="#">${Hoa_tuoi.Ten}</a></h6>
             <div class="price-wrap">`
         }
 
-        if (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai!=0) {
-            Noi_dung_HTML_card +=  
-            `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} đ</span>
+        if (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai != 0) {
+            Noi_dung_HTML_card +=
+                `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} đ</span>
             <del class="price-old">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</del>
             </div> 
             </figcaption>
             </figure>`
         } else {
-            Noi_dung_HTML_card += 
-            `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</span>
+            Noi_dung_HTML_card +=
+                `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</span>
             </div> 
             </figcaption>
             </figure>`
         }
-
         The_hien.innerHTML = Noi_dung_HTML_card
         Th_Cha.appendChild(The_hien)
+
+
+        // Sự kiện thêm sản phẩm vào Giỏ hàng 
+        The_hien.onclick = () => {
+            
+            // Khởi tạo sự kiện "CHON"
+            The_hien.classList.toggle("CHON")
+            //alert(The_hien.getAttribute("data"))
+
+            // Lưu danh sách các sản phẩm vào Session Storage 
+            var ds = []
+            if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
+                ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
+            }
+            
+            var vt = ds.indexOf(Hoa_tuoi.Ma_so)
+            if (vt == -1) {
+                ds.push(Hoa_tuoi.Ma_so) // Thêm
+            } else {
+                ds.splice(vt, 1) // Xóa
+            }
+
+            if (ds.length > 0) {
+                sessionStorage.setItem("Danh_sach_Chon", JSON.stringify(ds)) //thêm vào danh sách
+            } else {
+                sessionStorage.removeItem("Danh_sach_Chon") //xóa khỏi danh sách
+            }
+
+            //Thể hiện số lượng sản phẩm trên icon Giỏ hàng
+            Th_Gio_hang_So_luong_SP.innerHTML = `<u>${ds.length}</u>`
+        }
+
+
+
     })
 }
-
-
-
-
-
-
-
 
 
 //************************* CÁC HÀM XỬ LÝ SỐ, NGÀY (Mr. Tuan)*******************************************************

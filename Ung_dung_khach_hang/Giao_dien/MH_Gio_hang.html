@@ -49,7 +49,8 @@
     <header class="section-header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" id="Th_logo" href="MH_Danh_sach_Hoa.html"><img class="logo" src="" alt="logo E-Flower shop" title="logo E-Flower shop"></a>
+                <a class="navbar-brand" id="Th_logo" href="MH_Danh_sach_Hoa.html"><img class="logo" src="" alt="logo E-Flower shop"
+                        title="logo E-Flower shop"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop"
                     aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -155,7 +156,7 @@
                                 <a href="MH_Gio_hang.html" class="widget-header">
                                     <div class="icontext">
                                         <div class="icon-wrap"><i class="text-success icon-sm fa fa-shopping-cart"></i>
-                                            <span class="notify">0</span></div>
+                                            <span id="Th_Gio_hang_So_luong_SP" class="notify">0</span></div>
                                         <div class="text-wrap text-dark">
                                             <div>Giỏ hàng</div>
                                         </div>
@@ -171,8 +172,6 @@
     <!-- ========================= SECTION HEADER END// ========================= -->
 
 
-
-
     <!-- ========================= SECTION CONTENT ========================= -->
     <section class="section-content bg padding-y border-top">
         <div class="container">
@@ -182,6 +181,7 @@
 
                     <div class="card">
                         <table class="table table-hover shopping-cart-wrap">
+                            <!-- ========================= Tiêu đề bảng danh sách sản phẩm ========================= -->
                             <thead class="text-muted">
                                 <tr>
                                     <th scope="col">Sản phẩm</th>
@@ -190,122 +190,19 @@
                                     <th scope="col" class="text-right" width="200">Lựa chọn</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <figure class="media">
-                                            <div class="img-wrap"><img src="Thu_vien_UI_Kit/images/items/1.jpg" class="img-thumbnail img-sm"></div>
-                                            <figcaption class="media-body">
-                                                <h6 class="title text-truncate">Product name goes here </h6>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Size: </dt>
-                                                    <dd>XXL</dd>
-                                                </dl>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Color: </dt>
-                                                    <dd>Orange color</dd>
-                                                </dl>
-                                            </figcaption>
-                                        </figure>
-                                    </td>
-                                    <td>
-                                        <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                        </select>
-                                    </td>
-                                    <td>
-                                        <div class="price-wrap">
-                                            <var class="price">USD 145</var>
-                                            <small class="text-muted">(USD5 each)</small>
-                                        </div> <!-- price-wrap .// -->
-                                    </td>
-                                    <td class="text-right">
-                                        <a href="" class="btn btn-outline-danger"> × Remove</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <figure class="media">
-                                            <div class="img-wrap"><img src="Thu_vien_UI_Kit/images/items/2.jpg" class="img-thumbnail img-sm"></div>
-                                            <figcaption class="media-body">
-                                                <h6 class="title text-truncate">Product name goes here </h6>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Size: </dt>
-                                                    <dd>XXL</dd>
-                                                </dl>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Color: </dt>
-                                                    <dd>Orange color</dd>
-                                                </dl>
-                                            </figcaption>
-                                        </figure>
-                                    </td>
-                                    <td>
-                                        <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                        </select>
-                                    </td>
-                                    <td>
-                                        <div class="price-wrap">
-                                            <var class="price">USD 35</var>
-                                            <small class="text-muted">(USD10 each)</small>
-                                        </div> <!-- price-wrap .// -->
-                                    </td>
-                                    <td class="text-right">
-                                        <a href="" class="btn btn-outline-danger btn-round"> × Remove</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <figure class="media">
-                                            <div class="img-wrap"><img src="Thu_vien_UI_Kit/images/items/3.jpg" class="img-thumbnail img-sm"></div>
-                                            <figcaption class="media-body">
-                                                <h6 class="title text-truncate">Product name goes here </h6>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Size: </dt>
-                                                    <dd>XXL</dd>
-                                                </dl>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Color: </dt>
-                                                    <dd>Orange color</dd>
-                                                </dl>
-                                            </figcaption>
-                                        </figure>
-                                    </td>
-                                    <td>
-                                        <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                        </select>
-                                    </td>
-                                    <td>
-                                        <div class="price-wrap">
-                                            <var class="price">USD 45</var>
-                                            <small class="text-muted">(USD15 each)</small>
-                                        </div> <!-- price-wrap .// -->
-                                    </td>
-                                    <td class="text-right">
-                                        <a href="" class="btn btn-outline-danger btn-round"> × Remove</a>
-                                    </td>
-                                </tr>
+                            <!-- =========================  Danh sách sản phẩm ========================= -->
+                            <tbody id="Th_Danh_sach_SP_trong_Gio_hang"> 
+                
+
                             </tbody>
                         </table>
                     </div> <!-- card.// -->
-
                 </main> <!-- col.// -->
 
 
 
 
-                
+                <!-- ===============Thông tin thanh toán========-->
                 <aside class="col-sm-3">
                     <p class="alert alert-success">Add USD 5.00 of eligible items to your order to qualify for FREE
                         Shipping. </p>
@@ -470,36 +367,65 @@
         Xuat_Thong_tin_Cua_hang(Cua_hang, Th_Ten_Cuahang, Th_Dia_chi, Th_Dienthoai_top, Th_Dienthoai_bot, Th_logo)
 
 
-
-        //*********** Xuất thể hiện danh sách hoa ***********
-        if (Danh_sach_Hoa.length > 0) {
-            Th_So_luong_san_pham.innerHTML = `(${Danh_sach_Hoa.length})`
-            Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Hoa, Th_Danh_sach_Hoa)
-        } else {
-            Th_So_luong_san_pham.innerHTML = "(Lỗi đọc dữ liệu)"
+        //*********** Xuất số lượng sản phẩm cho Giỏ hàng -đọc từ Session Storage ***********
+        if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
+            var ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon")) //chuyển chuỗi trong Item của Session Storage về Object
+            var So_luong_SP = ds.length // Đếm số đối tượng
+            Th_Gio_hang_So_luong_SP.innerHTML = `<u>${So_luong_SP}</u>` //xuất số lượng sp lên icon giỏ hàng
         }
 
 
+        //************ Xuất danh sách sản phẩm trong Giỏ hàng
+        var Danh_sach_Cap_nhat = []
+        Danh_sach_Chon = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
+        Danh_sach_Chon.forEach(ten_ma_so => {
+            var Hoa_tuoi = Danh_sach_Hoa.find(x => x.Ma_so == ten_ma_so)
+            Danh_sach_Cap_nhat.push(Hoa_tuoi)
+        })
 
+        Xuat_Danh_sach_San_pham_mua(Danh_sach_Cap_nhat, Th_Danh_sach_SP_trong_Gio_hang)
 
+        function Xuat_Danh_sach_San_pham_mua(Danh_sach_Mua, Th_Cha) {
+            Th_Cha.innerHTML = ""
+            var noi_dung_HTML = ``
+            console.log(Danh_sach_Mua)
+            Danh_sach_Mua.forEach(San_pham_Mua => {
+            noi_dung_HTML += `
+                    <tr>
+                        <td>
+                            <figure class="media">
+                                <div class="img-wrap"><img src="http://localhost:1001/${San_pham_Mua.Ma_so}.jpg" class="img-thumbnail img-sm"></div>
+                                    <figcaption class="media-body">
+                                        <h6 class="title text-truncate">${San_pham_Mua.Ten}</h6>
+                                        <dl class="dlist-inline small">
+                                            <dt>Size: </dt>
+                                            <dd>XXL</dd>
+                                        </dl>
+                                        <dl class="dlist-inline small">
+                                            <dt>Color: </dt>
+                                            <dd>Orange color</dd>
+                                        </dl>
+                                    </figcaption>
+                                        </figure>
+                                    </td>
+                            <td>
+                                <input class="form-control" type="number" value="42" id="example-number-input">
+                                    </td>
+                                <td>
+                                    <div class="price-wrap">
+                                        <var class="price">USD 145</var>
+                                        <small class="text-muted">(USD5 each)</small>
+                                    </div> <!-- price-wrap .// -->
+                                    </td>
+                                <td class="text-right">
+                                    <a href="" class="btn btn-outline-danger"> × Remove</a>
+                                </td>
+                                </tr>`
 
+            })
+            Th_Cha.innerHTML = noi_dung_HTML
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     </script>
     <!-- **************** XỬ LÝ JAVASCRIPT - END //**************** -->
 </body>

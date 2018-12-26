@@ -49,7 +49,8 @@
 	<header class="section-header">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
-				<a class="navbar-brand" id="Th_logo" href="MH_Danh_sach_Hoa.html"><img class="logo" src="" alt="logo E-Flower shop" title="logo E-Flower shop"></a>
+				<a class="navbar-brand" id="Th_logo" href="MH_Danh_sach_Hoa.html"><img class="logo" src="" alt="logo E-Flower shop"
+					 title="logo E-Flower shop"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop"
 				 aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -152,7 +153,8 @@
 							<div class="col-auto">
 								<a href="MH_Gio_hang.html" class="widget-header">
 									<div class="icontext">
-										<div class="icon-wrap"><i class="text-success icon-sm fa fa-shopping-cart"></i> <span class="notify">0</span></div>
+										<div class="icon-wrap"><i class="text-success icon-sm fa fa-shopping-cart"></i> <span id="Th_Gio_hang_So_luong_SP"
+											 class="notify">0</span></div>
 										<div class="text-wrap text-dark">
 											<div>Giỏ hàng</div>
 										</div>
@@ -318,6 +320,14 @@
 		} else {
 			Th_So_luong_san_pham.innerHTML = "(Lỗi đọc dữ liệu)"
 		}
+
+		//*********** Xuất số lượng sản phẩm cho Giỏ hàng -đọc từ Session Storage ***********
+		if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
+			var ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon")) //chuyển chuỗi trong Item của Session Storage về Object
+			var So_luong_SP = ds.length // Đếm số đối tượng
+			Th_Gio_hang_So_luong_SP.innerHTML = `<u>${So_luong_SP}</u>` //xuất số lượng sp lên icon giỏ hàng
+		}
+
 
 
 
