@@ -76,7 +76,8 @@
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="btn  btn-outline-success"> <i class="fa fa-phone-volume"></i> Đặt hàng nhanh:
+                            <a href="#" class="btn  btn-outline-success"> <i class="fa fa-phone-volume"></i> Đặt hàng
+                                nhanh:
                                 <strong><span id="Th_Dienthoai_top">[?????]</span></strong>
                             </a>
                         </li>
@@ -173,30 +174,61 @@
 
 
     <!-- ========================= SECTION CONTENT ========================= -->
+
+
     <section class="section-content bg padding-y border-top">
         <div class="container">
 
             <div class="row">
                 <main class="col-sm-9">
-
                     <div class="card">
-                        <table class="table table-hover shopping-cart-wrap">
-                            <!-- ========================= Tiêu đề bảng danh sách sản phẩm ========================= -->
-                            <thead class="text-muted">
-                                <tr>
-                                    <th scope="col" width="40%">Sản phẩm</th>
-                                    <th scope="col" class="text-right" width="10%">Số lượng</th>
-                                    <th scope="col" class="text-right" width="30%">Đơn giá</th>
-                                    <th scope="col" class="text-right" width="20%">Lựa chọn</th>
-                                </tr>
-                            </thead>
-                            <!-- =========================  Danh sách sản phẩm ========================= -->
-                            <tbody id="Th_Danh_sach_SP_trong_Gio_hang">
 
+                        <article class="card-body">
+                            <h4 class="title"> Thông tin giao hàng </h4>
+                            <hr>
+                            <form>
+                                <div class="form-group">
+                                    <label class="font-weight-bold">Họ và tên</label>
+                                    <input type="text" class="form-control col-7" placeholder="">
+                                </div> <!-- form-group end.// -->
+                                <div class="form-group">
+                                    <label class="font-weight-bold">Địa chỉ email</label>
+                                    <input type="email" class="form-control col-7" placeholder="">
+                                </div> <!-- form-group end.// -->
+                                <div class="form-group">
+                                    <label class="font-weight-bold">Số điện thoại</label>
+                                    <input type="tel" class="form-control col-7" placeholder="">
+                                </div> <!-- form-group end.// -->
 
-                            </tbody>
-                        </table>
+                                <div class="form-row">
+                                    <div class="form-group col-md-8">
+                                        <label class="font-weight-bold">Địa chỉ giao hàng</label>
+                                        <input type="text" class="form-control">
+                                    </div> <!-- form-group end.// -->
+                                    <div class="form-group col-md-4">
+                                        <label class="font-weight-bold">Khu vực</label>
+                                        <select id="inputState" class="form-control">
+                                            <option>Hà Nội</option>
+                                            <option>Đà Nẵng</option>
+                                            <option selected="">TP. Hồ Chí Minh</option>
+                                            <option>Cần Thơ</option>
+                                            <option>Tỉnh thành khác</option>
+                                        </select>
+                                    </div> <!-- form-group end.// -->
+                                </div> <!-- form-row.// -->
+                                <div class="form-row">
+                                    <div class="form-group col-md-8">
+                                        <label class="font-weight-bold">Ghi chú cho đơn hàng</label>
+                                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                                    </div> <!-- form-group end.// -->
+                                </div> <!-- form-row.// -->
+                                <small class="text-muted"><i class="fas fa-lock">&nbsp;</i>Chúng tôi cam kết đảm bảo
+                                    chính sách về thông tin cá nhân và quyền riêng tư.</small>
+                            </form>
+                        </article> <!-- card-body end .// -->
                     </div> <!-- card.// -->
+
+
                 </main> <!-- col.// -->
 
 
@@ -204,35 +236,24 @@
 
                 <!-- ===============Thông tin thanh toán========-->
                 <aside class="col-sm-3">
-                    <p class="alert alert-success"> <strong>Lưu ý: </strong> Đơn hàng trên 500.000đ được miễn phí giao hàng trong nội thành TP. Hồ Chí Minh. </p>
+                    <p class="alert alert-success"><i class="fas fa-phone">&nbsp;</i>Chúng tôi sẽ liên hệ để xác nhận
+                        trong vòng 2 giờ kể từ khi đặt hàng</p>
                     <dl class="dlist-align small">
-                        <dt>Giá gốc: </dt>
-                        <dd class="text-right">2.000.000 đ</dd>
-                    </dl>
-                    <dl class="dlist-align small">
-                        <dt>Giảm giá:</dt>
-                        <dd class="text-right">500.000 đ</dd>
+                        <dt>Tổng cộng</dt>
+                        <dd class="text-right">12 sản phẩm</dd>
                     </dl>
                     <dl class="dlist-align h6">
                         <dt>Thành tiền:</dt>
                         <dd class="text-right text-danger"><strong>1.500.000 đ</strong></dd>
                     </dl>
-                    <dl>
-                        <a href="MH_Thanh_toan.html" class="btn btn-danger col-sm-12">Tiến hành đặt hàng</a>
-                    </dl>
                     <hr>
-                    <figure class="itemside mb-3">
-                        <aside class="aside"><img src="Thu_vien_UI_Kit/images/icons/pay-visa.png"></aside>
-                        <div class="text-wrap small text-muted">
-                            Tiết kiệm ngay 2% khi sử dụng thể thanh toán VISA.
-                        </div>
-                    </figure>
-                    <figure class="itemside mb-3">
-                        <aside class="aside"> <img src="Thu_vien_UI_Kit/images/icons/pay-mastercard.png"> </aside>
-                        <div class="text-wrap small text-muted">
-                            Nhận ưu đãi và quà tặng khi thành toán qua MasterCard.
-                        </div>
-                    </figure>
+                    <dl>
+                        <a href="MH_Gio_hang.html" class="btn btn-secondary col-sm-12">Chỉnh sửa giỏ hàng</a>
+                    </dl>
+                    <dl>
+                        <a href="MH_Danh_sach_Hoa.html" class="btn btn-danger col-sm-12">Xác nhận thanh toán</a>
+                    </dl>
+
 
                 </aside> <!-- col.// -->
             </div>
@@ -375,85 +396,6 @@
         }
 
 
-        //************ Xuất danh sách sản phẩm trong Giỏ hàng
-        var Danh_sach_Cap_nhat = []
-        Danh_sach_Chon = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
-        Danh_sach_Chon.forEach(ten_ma_so => {
-            var Hoa_tuoi = Danh_sach_Hoa.find(x => x.Ma_so == ten_ma_so)
-            Danh_sach_Cap_nhat.push(Hoa_tuoi)
-        })
-
-        Xuat_Danh_sach_San_pham_mua(Danh_sach_Cap_nhat, Th_Danh_sach_SP_trong_Gio_hang)
-
-        function Xuat_Danh_sach_San_pham_mua(Danh_sach_Mua, Th_Cha) {
-            Th_Cha.innerHTML = ""
-            var noi_dung_HTML = ``
-            console.log(Danh_sach_Mua)
-            Danh_sach_Mua.forEach(San_pham_Mua => {
-                // Tính toán giá tiền khuyến mãi
-                var Gia_goc = San_pham_Mua.Don_gia_Ban  //number
-                var Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (San_pham_Mua.Trang_thai.Ti_le_khuyen_mai))  //number
-                var Phan_tram_KM = San_pham_Mua.Trang_thai.Ti_le_khuyen_mai*100
-                noi_dung_HTML += `
-                    <tr>
-                        <td>
-                            <figure class="media">
-                                <div class="img-wrap"><img src="http://localhost:1001/${San_pham_Mua.Ma_so}.jpg" class="img-thumbnail img-sm"></div>
-                                    <figcaption class="media-body">
-                                        <h6 class="title text-truncate">${San_pham_Mua.Ten}</h6>
-                                        <dl class="dlist-inline small">
-                                            <dt>Chủ đề: </dt>
-                                            <dd>${San_pham_Mua.Chu_de.Ten}</dd>
-                                        </dl>
-                                        <dl class="dlist-inline small">
-                                            <dt>Màu: </dt>
-                                            <dd>${San_pham_Mua.Mau_sac.Ten}</dd>
-                                        </dl>
-                                    </figcaption>
-                                        </figure>
-                        </td>
-                        <td>
-                                <input class="form-control" type="number" min="1" max="10" value="1" id="example-number-input">
-                                    </td>
-                        <td>`
-
-
-                if (San_pham_Mua.Trang_thai.Ti_le_khuyen_mai != 0) {
-                    noi_dung_HTML +=
-                    `<div class="price-wrap text-right">
-                                        <dl class="dlist-inline">
-                                            <dt>${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} đ</dt>
-                                        </dl>
-                                        <dl class="dlist-inline small">
-                                            <dd style="text-decoration: line-through">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</dd>
-                                        </dl>
-                                        <dl class="dlist-inline">
-                                            <span class="badge badge-warning">-${Phan_tram_KM} %</span>
-                                        </dl>
-                                    </div> <!-- price-wrap .// -->
-                        </td>
-                                <td class="text-right">
-                                    <a href="" class="btn btn-outline-danger"> × Bỏ sản phẩm</a>
-                        </td>
-                    </tr>`
-
-                } else {
-                    noi_dung_HTML +=
-                    `<div class="price-wrap text-right">
-                                        <dl class="dlist-inline">
-                                            <dt>${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</dt>
-                                        </dl>
-                    </div> <!-- price-wrap .// -->
-                        </td>
-                                <td class="text-right">
-                                    <a href="" class="btn btn-outline-danger"> × Bỏ sản phẩm</a>
-                        </td>
-                    </tr>`
-                }
-            })
-            Th_Cha.innerHTML = noi_dung_HTML
-
-        }
 
 
 

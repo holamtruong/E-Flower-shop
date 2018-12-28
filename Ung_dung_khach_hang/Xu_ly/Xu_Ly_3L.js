@@ -109,7 +109,7 @@ function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha) {
 
         // Sự kiện thêm sản phẩm vào Giỏ hàng 
         The_hien.onclick = () => {
-            
+
             // Khởi tạo sự kiện "CHON"
             The_hien.classList.toggle("CHON")
             //alert(The_hien.getAttribute("data"))
@@ -119,26 +119,47 @@ function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha) {
             if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
                 ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
             }
-            
+
             var vt = ds.indexOf(Hoa_tuoi.Ma_so)
             if (vt == -1) {
                 ds.push(Hoa_tuoi.Ma_so) // Thêm
+              
+                // Hiển thị thông báo bootstrap-notify
+                $.notify({
+                    message: 'Đã thêm vào giỏ hàng của bạn.',
+                }, {
+                        type: "success",
+                        allow_dismiss: false,
+                        placement: {
+                            from: "bottom",
+                            align: "right"
+                        }
+                    });
             } else {
                 ds.splice(vt, 1) // Xóa
+               
+                 // Hiển thị thông báo bootstrap-notify
+                $.notify({
+                    message: 'Đã xóa khỏi giỏ hàng',
+                }, {
+                        type: "danger",
+                        allow_dismiss: false,
+                        placement: {
+                            from: "bottom",
+                            align: "right"
+                        }
+                    });
             }
 
             if (ds.length > 0) {
-                sessionStorage.setItem("Danh_sach_Chon", JSON.stringify(ds)) //thêm vào danh sách
+                sessionStorage.setItem("Danh_sach_Chon", JSON.stringify(ds)) // 
             } else {
-                sessionStorage.removeItem("Danh_sach_Chon") //xóa khỏi danh sách
+                sessionStorage.removeItem("Danh_sach_Chon") //xóa khỏi danh sách  
             }
 
             //Thể hiện số lượng sản phẩm trên icon Giỏ hàng
             Th_Gio_hang_So_luong_SP.innerHTML = `<u>${ds.length}</u>`
         }
-
-
-
     })
 }
 
