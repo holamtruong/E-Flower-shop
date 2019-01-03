@@ -59,15 +59,13 @@ function Ghi_Phieu_Dat_hang(DsPhieu_dat) {
 
 
 // *********** Hàm xuất và thể hiện Danh sách hoa ***********
-function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha, Th_modal) {
+function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha) {
     Th_Cha.innerHTML = ""
     Danh_sach.forEach(Hoa_tuoi => {
         // Kiểm tra trạng thái sản phẩm
         var Gia_goc = Hoa_tuoi.Don_gia_Ban  //number
         var Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai))  //number
         var Hang_moi = Hoa_tuoi.Trang_thai.Hang_moi_ve  //true - false
-        var Phan_tram_KM = Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai * 100
-        var Luot_danh_gia = Math.floor((Math.random() * 1000) + 1); //random số lượt đánh giá
 
         // Thể hiện card sản phẩm
         var The_hien = document.createElement("div")
@@ -93,14 +91,14 @@ function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha, Th_modal) {
 
         if (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai != 0) {
             Noi_dung_HTML_card +=
-                `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} ₫</span>
-            <del class="price-old">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} ₫</del>
+                `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} đ</span>
+            <del class="price-old">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</del>
             </div> 
             </figcaption>
             </figure>`
         } else {
             Noi_dung_HTML_card +=
-                `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} ₫</span>
+                `<span class="price-new">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} đ</span>
             </div> 
             </figcaption>
             </figure>`
@@ -109,149 +107,58 @@ function Xuat_The_hien_Danh_sach_Hoa(Danh_sach, Th_Cha, Th_modal) {
         Th_Cha.appendChild(The_hien)
 
 
-        // Sự kiện click vào card để xem chi tiết sản phẩm
+        // Sự kiện thêm sản phẩm vào Giỏ hàng 
         The_hien.onclick = () => {
-            // Tạo nội dung HTML modal
-            var HTML_modal = `
-               <div class="modal-dialog modal-lg">
-                   <div class="modal-content">
-                       <!-- Card -->
-                       <main class="card">
-                           <div class="row no-gutters">
-                               <aside class="col-sm-6 border-right align-middle">
-                                   <article class="gallery-wrap">
-                                       <div class="img-wrap">
-                                           <div><img class="align-middle" src="${Dia_chi_Dich_vu_Media}/${Hoa_tuoi.Ma_so}.jpg"></a></div>
-                                           <hr>
-                                       </div> <!-- slider-product.// -->
-       
-                                   </article> <!-- gallery-wrap .end// -->
-                               </aside>
-                               <aside class="col-sm-6">
-                                   <article class="card-body">
-                                       <!-- short-info-wrap -->
-                                       <h3 class="title mb-3 text-dark">${Hoa_tuoi.Ten}</h3>`
 
-            if (Hoa_tuoi.Trang_thai.Ti_le_khuyen_mai != 0) {
-                HTML_modal +=
-                    `<div class="mb-3">
-                                    <dl class="price h5">
-                                                   <dt class="price-new text-danger">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_khuyen_mai)} ₫</dt>
-                                                   <dt> <span class="price-old  text-secondary">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} ₫</span>&nbsp
-                                                        <span class="badge badge-warning" style="font-size: 10px">-${Phan_tram_KM} %</span>
-                                                    </dt>
-                                    </dl>
-                                </div> <!-- price-detail-wrap .// -->`
+            // Khởi tạo sự kiện "CHON"
+            The_hien.classList.toggle("CHON")
+            //alert(The_hien.getAttribute("data"))
+
+            // Lưu danh sách các sản phẩm vào Session Storage 
+            var ds = []
+            if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
+                ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
+            }
+
+            var vt = ds.indexOf(Hoa_tuoi.Ma_so)
+            if (vt == -1) {
+                ds.push(Hoa_tuoi.Ma_so) // Thêm
+              
+                // Hiển thị thông báo bootstrap-notify
+                $.notify({
+                    message: 'Đã thêm vào giỏ hàng của bạn.',
+                }, {
+                        type: "success",
+                        allow_dismiss: false,
+                        placement: {
+                            from: "bottom",
+                            align: "right"
+                        }
+                    });
             } else {
-                HTML_modal +=
-                    `<div class="mb-3">
-                                        <dl class="price h5">
-                                            <dt class="price-new text-danger">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} ₫</dt>
-                                            </dt>
-                                         </dl>
-                                        </div> <!-- price-detail-wrap .// -->`
-            }
-            HTML_modal += `                  
-                                <dl>
-                                    <dt>Ý nghĩa mẫu hoa</dt>
-                                    <dd>
-                                        <p style="text-align: justify"> ${Hoa_tuoi.Mo_ta} </p>
-                                    </dd>
-                                </dl>
-                                <dl class="row">
-                                    <dt class="col-sm-4">Chủ đề</dt>
-                                    <dd class="col-sm-9">${Hoa_tuoi.Chu_de.Ten}</dd>
-
-                                    <dt class="col-sm-5">Màu sắc chủ đạo</dt>
-                                    <dd class="col-sm-9">${Hoa_tuoi.Mau_sac.Ten}</dd>
-
-                                    <dt class="col-sm-4">Nguồn gốc</dt>
-                                    <dd class="col-sm-9"> ${Hoa_tuoi.Nguon_goc} </dd>
-                                </dl>
-                                <div class="rating-wrap">
-
-                                    <ul class="rating-stars">
-                                        <li style="width:80%" class="stars-active">
-                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <div class="label-rating">${Luot_danh_gia} lượt đánh giá</div>
-                                </div> <!-- rating-wrap.// -->
-                                <hr>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
-                                <a id="Th_Them_gio_hang" href="#" class="btn  btn-warning"> <i class="fas fa-shopping-cart"></i>&nbsp Thêm vào giỏ hàng</a>
-
-                                <!-- short-info-wrap .// -->
-                            </article> <!-- card-body.// -->
-                        </aside> <!-- col.// -->
-                        </div> <!-- row.// -->
-                        </main> <!-- card.// -->
-                        </div>
-                        </div>`
-
-            //Xuất thẻ modal ra màn hình
-            Th_modal.innerHTML = HTML_modal
-            $('#myModal').modal('show'); //Jquery
-        
-
-            //Tạo sự kiện click thêm vào giỏ hàng
-            Th_Them_gio_hang.onclick = () => {
-                var ds = []
-                if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
-                    ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
-                }
-
-                var vt = ds.indexOf(Hoa_tuoi.Ma_so)
-                if (vt == -1) {
-                    ds.push(Hoa_tuoi.Ma_so) // Thêm
-
-                    // Hiển thị thông báo bootstrap-notify
-                    $.notify({
-                        message: 'Đã thêm vào <strong>Giỏ hàng</strong> của bạn.',
-                        url: '../Giao_dien/MH_Gio_hang.html',
-                        target: '_parent'
-                    }, {
-                            type: "success",
-                            allow_dismiss: false,
-                            placement: {
-                                from: "bottom",
-                                align: "right"
-                            }
-                        });
-                } else {
-                    // Hiển thị thông báo bootstrap-notify
-                    $.notify({
-                        message: 'Đã tồn tại trong <strong>Giỏ hàng</strong>',
-                        url: '../Giao_dien/MH_Gio_hang.html',
-                        target: '_parent'
-                    }, {
-                            type: "warning",
-                            allow_dismiss: false,
-                            placement: {
-                                from: "bottom",
-                                align: "right"
-                            }
-                        });
-                }
-
-                if (ds.length > 0) {
-                    sessionStorage.setItem("Danh_sach_Chon", JSON.stringify(ds)) // 
-                } else {
-                    sessionStorage.removeItem("Danh_sach_Chon") //xóa khỏi danh sách  
-                }
-
-                //Thể hiện số lượng sản phẩm trên icon Giỏ hàng
-                Th_Gio_hang_So_luong_SP.innerHTML = `<u>${ds.length}</u>`
-                $('#myModal').modal('hide');//tắt modal xuống
+                ds.splice(vt, 1) // Xóa
+               
+                 // Hiển thị thông báo bootstrap-notify
+                $.notify({
+                    message: 'Đã xóa khỏi giỏ hàng',
+                }, {
+                        type: "danger",
+                        allow_dismiss: false,
+                        placement: {
+                            from: "bottom",
+                            align: "right"
+                        }
+                    });
             }
 
+            if (ds.length > 0) {
+                sessionStorage.setItem("Danh_sach_Chon", JSON.stringify(ds)) // 
+            } else {
+                sessionStorage.removeItem("Danh_sach_Chon") //xóa khỏi danh sách  
+            }
+
+            //Thể hiện số lượng sản phẩm trên icon Giỏ hàng
+            Th_Gio_hang_So_luong_SP.innerHTML = `<u>${ds.length}</u>`
         }
     })
 }

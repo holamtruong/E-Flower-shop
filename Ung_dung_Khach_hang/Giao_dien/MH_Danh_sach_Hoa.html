@@ -187,8 +187,7 @@
 	<section class="section-request bg padding-y-sm">
 		<div class="container">
 
-			<!-- Test load modal-->
-			<button type="button" class="btn btn-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">Test modal - xem chi tiết sản phẩm</button>
+		
 
 			<!--====== Danh sách hoa =========== -->
 			<header class="section-heading heading-line">
@@ -306,80 +305,9 @@
 	<!-- ========================= FOOTER END // ========================= -->
 
 	<!--=============================  MODAL - PRODUCT DETAIL =========================== -->
-	<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+	<div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
 	 aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<!-- Card -->
-				<main class="card">
-					<div class="row no-gutters">
-						<aside class="col-sm-6 border-right align-middle">
-							<article class="gallery-wrap">
-								<div class="img-wrap">
-									<div><img class="align-middle" src="http://localhost:1001/TINH_YEU_1.jpg"></a></div>
-								</div> <!-- slider-product.// -->
-
-							</article> <!-- gallery-wrap .end// -->
-						</aside>
-						<aside class="col-sm-6">
-							<article class="card-body">
-								<!-- short-info-wrap -->
-								<h3 class="title mb-3 text-primary">Niềm Tin Vững Vàng</h3>
-
-								<div class="mb-3">
-									<var class="price h3 text-secondary">
-										<span class="num">1.299.000 đ</span>
-									</var>
-								</div> <!-- price-detail-wrap .// -->
-								<dl>
-									<dt>Ý nghĩa của mẫu hoa</dt>
-									<dd>
-										<p style="text-align: justify"> Mẫu hoa được thiết kế đặc biệt với sự pha trộn giữa tông màu xanh lá tươi
-											mát của thiên nhiên và tông màu xanh dương mạnh mẽ, giỏ hoa mang thông điệp của
-											sự phát triển mạnh mẽ, hoa thuận và tươi mát thích hợp dành tặng các bạn nam vào
-											những dịp đặc biệt như sinh nhật, chúc mừng kỉ niệm và thăng chức. </p>
-									</dd>
-								</dl>
-								<dl class="row">
-									<dt class="col-sm-4">Chủ đề</dt>
-									<dd class="col-sm-9">Hoa Sinh Nhật</dd>
-
-									<dt class="col-sm-5">Màu sắc chủ đạo</dt>
-									<dd class="col-sm-9">Đỏ</dd>
-
-									<dt class="col-sm-4">Nguồn gốc</dt>
-									<dd class="col-sm-9">Russia, USA, and Europe </dd>
-								</dl>
-								<div class="rating-wrap">
-
-									<ul class="rating-stars">
-										<li style="width:80%" class="stars-active">
-											<i class="fa fa-star"></i> <i class="fa fa-star"></i>
-											<i class="fa fa-star"></i> <i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-										</li>
-										<li>
-											<i class="fa fa-star"></i> <i class="fa fa-star"></i>
-											<i class="fa fa-star"></i> <i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-										</li>
-									</ul>
-									<div class="label-rating">132 lượt đánh giá</div>
-								</div> <!-- rating-wrap.// -->
-								<hr>
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
-								<a href="#" class="btn  btn-warning"> <i class="fas fa-shopping-cart"></i>&nbsp Thêm vào giỏ hàng</a>
-
-								<!-- short-info-wrap .// -->
-							</article> <!-- card-body.// -->
-						</aside> <!-- col.// -->
-					</div> <!-- row.// -->
-				</main> <!-- card.// -->
-
-
-
-			</div>
-		</div>
+		[Nội dung modal chi tiết sản phẩm]
 	</div>
 	<!--============================= PRODUCT DETAIL END =========================== -->
 
@@ -409,7 +337,7 @@
 		//*********** Xuất thể hiện danh sách hoa ***********
 		if (Danh_sach_Hoa.length > 0) {
 			Th_So_luong_san_pham.innerHTML = `(${Danh_sach_Hoa.length})`
-			Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Hoa, Th_Danh_sach_Hoa)
+			Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Hoa, Th_Danh_sach_Hoa,myModal)
 		} else {
 			Th_So_luong_san_pham.innerHTML = "(Lỗi đọc dữ liệu)"
 		}
