@@ -3,122 +3,24 @@
 	"Ma_so": "CHIA_BUON_4",
 	"Don_gia_Ban": 300000,
 	"Don_gia_Nhap": 200000,
+	
 	"Chu_de": {
 		"Ten": "Hoa Chia Buồn",
-		"Ma_so": "CHIA_BUON"
+		"Ma_so": "CHIA_BUON" 
 	},
-	"Mau_sac": {
-		"Ten": "Màu vàng",
-		"Ma_so": "VANG"
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
 	},
-	"Mo_ta": "Chia ly là điều không ai muốn. Nhưng ai có thể chống lại quy luật sinh, lão, bệnh, tử của tạo hóa. Ai rồi cũng phải ra đi vì thế hãy cứ an lòng và mong cho người ra đi được thanh thản. Kệ hoa chia buồn với tone màu vàng sẽ giúp bạn gửi lời chia buồn sâu sắc đến người nhận",
+	
+	"Mo_ta":"Chia ly là điều không ai muốn. Nhưng ai có thể chống lại quy luật sinh, lão, bệnh, tử của tạo hóa. Ai rồi cũng phải ra đi vì thế hãy cứ an lòng và mong cho người ra đi được thanh thản. Kệ hoa chia buồn với tone màu vàng sẽ giúp bạn gửi lời chia buồn sâu sắc đến người nhận",
+	
 	"Trang_thai": {
 		"Hang_moi_ve": true,
 		"Ti_le_khuyen_mai": 0
 	},
-	"Nguon_goc": "Châu Âu",
-	"Danh_sach_Phieu_Dat": [
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 300000,
-			"Thanh_tien": 300000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 1
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 300000,
-			"Thanh_tien": 300000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 2
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 300000,
-			"Thanh_tien": 300000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 3
-		},
-		{
-			"Ngay_Dat_hang": "Sat Jan 05 2019 12:58:23 GMT+0700 (Giờ Đông Dương)",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 300000,
-			"Thanh_tien": 300000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "ada",
-				"Email": "adad",
-				"Dien_thoai": "adad",
-				"Dia_chi": "adadd",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 4
-		},
-		{
-			"Ngay_Dat_hang": "Sat Jan 05 2019 13:00:07 GMT+0700 (Giờ Đông Dương)",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 300000,
-			"Thanh_tien": 300000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "fwwfwf",
-				"Email": "wfwf",
-				"Dien_thoai": "wfwf",
-				"Dia_chi": "wfwfw",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 5
-		},
-		{
-			"Ngay_Dat_hang": "Sat Jan 05 2019 13:01:38 GMT+0700 (Giờ Đông Dương)",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 300000,
-			"Thanh_tien": 300000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "adadad",
-				"Email": "adad",
-				"Dien_thoai": "adad",
-				"Dia_chi": "adad",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 6
-		}
-	]
+
+	"Nguon_goc":"Châu Âu"
+	
 }

@@ -3,54 +3,23 @@
 	"Ma_so": "SINH_NHAT_3",
 	"Don_gia_Ban": 1800000,
 	"Don_gia_Nhap": 1200000,
+	
 	"Chu_de": {
 		"Ten": "Hoa Sinh Nhật",
-		"Ma_so": "SINH_NHAT"
+		"Ma_so": "SINH_NHAT" 
 	},
-	"Mau_sac": {
-		"Ten": "Màu vàng",
-		"Ma_so": "VANG"
+
+	"Mau_sac":{
+		"Ten":"Màu vàng",
+		"Ma_so":"VANG"
 	},
-	"Mo_ta": "Được thiết kế hài hòa giữa tông màu nhẹ của hoa cúc PingPong và hoa hồng vàng tạo ra những đường nét hài hòa, nhẹ nhàng.Là những cánh địa lan đầy nét tinh khiết hay hơi thở của các loài ngưng tự lại tạo nên sắc vàng của sự thành công, của màu nắng yêu thương hằng ngày sưởi ấm con tim mỗi người chúng ta. Thích hợp tặng cho người thân,bạn bè đồng nghiệp trong ngày khai trương, chúc mừng và những ngày hội họp.",
+	
+	"Mo_ta":"Được thiết kế hài hòa giữa tông màu nhẹ của hoa cúc PingPong và hoa hồng vàng tạo ra những đường nét hài hòa, nhẹ nhàng.Là những cánh địa lan đầy nét tinh khiết hay hơi thở của các loài ngưng tự lại tạo nên sắc vàng của sự thành công, của màu nắng yêu thương hằng ngày sưởi ấm con tim mỗi người chúng ta. Thích hợp tặng cho người thân,bạn bè đồng nghiệp trong ngày khai trương, chúc mừng và những ngày hội họp.",
+	
 	"Trang_thai": {
 		"Hang_moi_ve": true,
 		"Ti_le_khuyen_mai": 0.2
 	},
-	"Nguon_goc": "Đà Lạt, Việt Nam",
-	"Danh_sach_Phieu_Dat": [
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 1800000,
-			"Thanh_tien": 1800000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 1
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "5",
-			"Don_gia_Ban": 1800000,
-			"Thanh_tien": 9000000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "dadad",
-				"Email": "truong@yahoo.com",
-				"Dien_thoai": "099191121313",
-				"Dia_chi": "adad",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 2
-		}
-	]
+
+	"Nguon_goc":"Đà Lạt, Việt Nam"
 }

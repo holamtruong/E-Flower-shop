@@ -3,37 +3,23 @@
 	"Ma_so": "SINH_NHAT_7",
 	"Don_gia_Ban": 900000,
 	"Don_gia_Nhap": 800000,
+	
 	"Chu_de": {
 		"Ten": "Hoa Sinh Nhật",
-		"Ma_so": "SINH_NHAT"
+		"Ma_so": "SINH_NHAT" 
 	},
-	"Mau_sac": {
-		"Ten": "Màu tím",
-		"Ma_so": "TIM"
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
 	},
-	"Mo_ta": "Có một số người mãi mãi khắc ghi trong ký ức, cho dù đã quên mất giọng nói, nụ cười, khuôn mặt ấy, nhưng mỗi khi nhớ về người đó, cảm xúc không bao giờ thay đổi, vẫn nguyên cảm giác ấy - cảm giác dấu yêu - khi được đi bên cạnh nhau. Khoảnh khắc dấu yêu luôn là khoảnh khắc khó phai trong cuộc đời mỗi người. Thích hợp tặng dịp sinh nhật, xin lỗi, kỉ niệm làm quen...",
+	
+	"Mo_ta":"Có một số người mãi mãi khắc ghi trong ký ức, cho dù đã quên mất giọng nói, nụ cười, khuôn mặt ấy, nhưng mỗi khi nhớ về người đó, cảm xúc không bao giờ thay đổi, vẫn nguyên cảm giác ấy - cảm giác dấu yêu - khi được đi bên cạnh nhau. Khoảnh khắc dấu yêu luôn là khoảnh khắc khó phai trong cuộc đời mỗi người. Thích hợp tặng dịp sinh nhật, xin lỗi, kỉ niệm làm quen...",
+	
 	"Trang_thai": {
 		"Hang_moi_ve": true,
 		"Ti_le_khuyen_mai": 0
 	},
-	"Nguon_goc": "Đà Lạt, Việt Nam",
-	"Danh_sach_Phieu_Dat": [
-		{
-			"Ngay_Dat_hang": "Sat Jan 05 2019 20:09:33 GMT+0700 (Giờ Đông Dương)",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 900000,
-			"Thanh_tien": 900000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "a",
-				"Email": "a",
-				"Dien_thoai": "a",
-				"Dia_chi": "a",
-				"Khu_vuc": "Hà Nội",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 1
-		}
-	]
+
+	"Nguon_goc":"Đà Lạt, Việt Nam"
 }

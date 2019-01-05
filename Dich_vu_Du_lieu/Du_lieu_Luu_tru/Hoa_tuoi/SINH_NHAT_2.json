@@ -3,71 +3,23 @@
 	"Ma_so": "SINH_NHAT_2",
 	"Don_gia_Ban": 550000,
 	"Don_gia_Nhap": 400000,
+	
 	"Chu_de": {
 		"Ten": "Hoa Sinh Nhật",
-		"Ma_so": "SINH_NHAT"
+		"Ma_so": "SINH_NHAT" 
 	},
-	"Mau_sac": {
-		"Ten": "Màu hồng",
-		"Ma_so": "HONG"
+
+	"Mau_sac":{
+		"Ten":"Màu hồng",
+		"Ma_so":"HONG"
 	},
-	"Mo_ta": "Hộp hoa với tone màu hồng pastel chủ đạo đã làm say đắm bao cô nàng đáng yêu. Hộp hoa này chắc chắn sẽ là món quà tuyệt vời dành tặng cho các fangirl có sự yêu thích đặc biệt dành cho màu hồng.",
+	
+	"Mo_ta":"Hộp hoa với tone màu hồng pastel chủ đạo đã làm say đắm bao cô nàng đáng yêu. Hộp hoa này chắc chắn sẽ là món quà tuyệt vời dành tặng cho các fangirl có sự yêu thích đặc biệt dành cho màu hồng.",
+	
 	"Trang_thai": {
 		"Hang_moi_ve": false,
 		"Ti_le_khuyen_mai": 0.1
 	},
-	"Nguon_goc": "Đà Lạt, Việt Nam",
-	"Danh_sach_Phieu_Dat": [
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "3",
-			"Don_gia_Ban": 550000,
-			"Thanh_tien": 1650000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 1
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 550000,
-			"Thanh_tien": 550000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 2
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "3",
-			"Don_gia_Ban": 550000,
-			"Thanh_tien": 1650000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "dadad",
-				"Email": "truong@yahoo.com",
-				"Dien_thoai": "099191121313",
-				"Dia_chi": "adad",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 3
-		}
-	]
+
+	"Nguon_goc":"Đà Lạt, Việt Nam"
 }

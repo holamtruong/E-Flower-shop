@@ -3,71 +3,23 @@
 	"Ma_so": "CHIA_BUON_6",
 	"Don_gia_Ban": 500000,
 	"Don_gia_Nhap": 400000,
+	
 	"Chu_de": {
 		"Ten": "Hoa Chia Buồn",
-		"Ma_so": "CHIA_BUON"
+		"Ma_so": "CHIA_BUON" 
 	},
-	"Mau_sac": {
-		"Ten": "Màu tím",
-		"Ma_so": "TIM"
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
 	},
-	"Mo_ta": "Với tone màu tím chủ đạo thêm màu trắng kệ hoa trông thật sang trọng thể hiện sự chia buồn sâu sắc cũng như san sẻ cùng với nỗi đau của gia quyến người đã khuất. Hãy cùng cầu nguyện cho người ra đi được thanh thản, nhẹ nhàng trong những nấc thang lên thiên đường.",
+	
+	"Mo_ta":"Với tone màu tím chủ đạo thêm màu trắng kệ hoa trông thật sang trọng thể hiện sự chia buồn sâu sắc cũng như san sẻ cùng với nỗi đau của gia quyến người đã khuất. Hãy cùng cầu nguyện cho người ra đi được thanh thản, nhẹ nhàng trong những nấc thang lên thiên đường.",
+	
 	"Trang_thai": {
 		"Hang_moi_ve": false,
 		"Ti_le_khuyen_mai": 0
 	},
-	"Nguon_goc": "Đà Lạt, Việt Nam",
-	"Danh_sach_Phieu_Dat": [
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 500000,
-			"Thanh_tien": 500000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 1
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 500000,
-			"Thanh_tien": 500000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 2
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 500000,
-			"Thanh_tien": 500000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 3
-		}
-	]
+
+	"Nguon_goc":"Đà Lạt, Việt Nam"
 }

@@ -3,88 +3,24 @@
 	"Ma_so": "CHIA_BUON_5",
 	"Don_gia_Ban": 400000,
 	"Don_gia_Nhap": 300000,
+	
 	"Chu_de": {
 		"Ten": "Hoa Chia Buồn",
-		"Ma_so": "CHIA_BUON"
+		"Ma_so": "CHIA_BUON" 
 	},
-	"Mau_sac": {
-		"Ten": "Màu tím",
-		"Ma_so": "TIM"
+
+	"Mau_sac":{
+		"Ten":"Màu tím",
+		"Ma_so":"TIM"
 	},
-	"Mo_ta": "Giọt nước mắt rơi khi người thân của ta ra đi mãi mãi. Để lại cho người ở lại nỗi đau khôn nguôi. Họ khóc khi gặp phải sự mất mát to lớn nên hơn hết vào những lúc này họ cần sự động viên an ủ bằng kệ hoa chia buồn này nhé.",
+	
+	"Mo_ta":"Giọt nước mắt rơi khi người thân của ta ra đi mãi mãi. Để lại cho người ở lại nỗi đau khôn nguôi. Họ khóc khi gặp phải sự mất mát to lớn nên hơn hết vào những lúc này họ cần sự động viên an ủ bằng kệ hoa chia buồn này nhé.",
+	
 	"Trang_thai": {
 		"Hang_moi_ve": false,
 		"Ti_le_khuyen_mai": 0
 	},
-	"Nguon_goc": "Hoa Kỳ",
-	"Danh_sach_Phieu_Dat": [
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 400000,
-			"Thanh_tien": 400000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 1
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 400000,
-			"Thanh_tien": 400000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 2
-		},
-		{
-			"Ngay_Dat_hang": "5/1/2019",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 400000,
-			"Thanh_tien": 400000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "",
-				"Email": "",
-				"Dien_thoai": "",
-				"Dia_chi": "",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": ""
-			},
-			"So_Phieu_Dat": 3
-		},
-		{
-			"Ngay_Dat_hang": "Sat Jan 05 2019 13:08:35 GMT+0700 (Giờ Đông Dương)",
-			"Ngay_Giao_hang_Du_kien": "7/1/2019",
-			"So_luong": "1",
-			"Don_gia_Ban": 400000,
-			"Thanh_tien": 400000,
-			"Trang_thai": "CHUA_GIAO_HANG",
-			"Thong_tin_Khach_hang": {
-				"Ho_ten": "ddada",
-				"Email": "adad",
-				"Dien_thoai": "dadad",
-				"Dia_chi": "adad",
-				"Khu_vuc": "TP. Hồ Chí Minh",
-				"Ghi_chu": "ada"
-			},
-			"So_Phieu_Dat": 4
-		}
-	]
+
+	"Nguon_goc":"Hoa Kỳ"
+	
 }
