@@ -1,7 +1,10 @@
 ﻿# E-Flower-shop
 Địa chỉ demo: http://hltruong.laptrinhjavascript.net
+-Dịch vụ dữ liệu : http://103.81.86.189:1001
+-Dịch vụ media: http://103.81.86.189:1001
 
 DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
+(lưu ý: các địa chỉ dịch vụ lưu trong GitHub là "http://localhost:1001" "http://localhost:1000"; do vậy cần kiểm tra trước khi chạy)
 - 04/12/2018: Bắt đầu dự án
 - 05/12/2018: Thiết kế dữ liệu Hoa; Lựa chọn giao diện UI Kit
 - 06/12/2018: Cập nhật dữ liệu 5 chủ đề hoa (data + media)
