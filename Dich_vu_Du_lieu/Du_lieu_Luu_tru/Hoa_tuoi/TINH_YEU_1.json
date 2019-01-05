@@ -3,23 +3,54 @@
 	"Ma_so": "TINH_YEU_1",
 	"Don_gia_Ban": 450000,
 	"Don_gia_Nhap": 300000,
-	
 	"Chu_de": {
 		"Ten": "Hoa Tình Yêu",
-		"Ma_so": "TINH_YEU" 
+		"Ma_so": "TINH_YEU"
 	},
-
-	"Mau_sac":{
-		"Ten":"Màu hồng",
-		"Ma_so":"HONG"
+	"Mau_sac": {
+		"Ten": "Màu hồng",
+		"Ma_so": "HONG"
 	},
-	
-	"Mo_ta":"Bó hoa của những dịu dàng, những ngây thơ và cả những hoài niệm về những phút giây đầu gặp gỡ. Ký ức về tình yêu đôi ta thật tự nhiên, đằm thắm mà vẫn để lại biết bao xúc cảm trong lòng của ta. Đó là những kỉ niệm đẹp, chỉ nghĩ cần đến thôi thì nụ cười hạnh phúc bất chợt nở trên môi.",
-	
+	"Mo_ta": "Bó hoa của những dịu dàng, những ngây thơ và cả những hoài niệm về những phút giây đầu gặp gỡ. Ký ức về tình yêu đôi ta thật tự nhiên, đằm thắm mà vẫn để lại biết bao xúc cảm trong lòng của ta. Đó là những kỉ niệm đẹp, chỉ nghĩ cần đến thôi thì nụ cười hạnh phúc bất chợt nở trên môi.",
 	"Trang_thai": {
 		"Hang_moi_ve": true,
 		"Ti_le_khuyen_mai": 0.2
 	},
-
-	"Nguon_goc":"Nhật Bản"
+	"Nguon_goc": "Nhật Bản",
+	"Danh_sach_Phieu_Dat": [
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "10",
+			"Don_gia_Ban": 450000,
+			"Thanh_tien": 4500000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 1
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 16:49:02 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 450000,
+			"Thanh_tien": 450000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "adad",
+				"Email": "dadd",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 2
+		}
+	]
 }

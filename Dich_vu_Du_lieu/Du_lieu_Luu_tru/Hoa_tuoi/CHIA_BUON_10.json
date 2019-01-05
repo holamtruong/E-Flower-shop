@@ -3,23 +3,666 @@
 	"Ma_so": "CHIA_BUON_10",
 	"Don_gia_Ban": 800000,
 	"Don_gia_Nhap": 700000,
-	
 	"Chu_de": {
 		"Ten": "Hoa Chia Buồn",
-		"Ma_so": "CHIA_BUON" 
+		"Ma_so": "CHIA_BUON"
 	},
-
-	"Mau_sac":{
-		"Ten":"Màu tím",
-		"Ma_so":"TIM"
+	"Mau_sac": {
+		"Ten": "Màu tím",
+		"Ma_so": "TIM"
 	},
-	
-	"Mo_ta":"Sự ra đi đột ngột của người đã khuất luôn để lại niềm tiếc thương vô hạn đối với người ở lại. Càng dành tình cảm cho nhau nhiều thì lại càng lưu luyến nhau, chẳng nỡ xa rời. Kệ hoa chia buồn “Màu lưu luyến” bày tỏ những cảm xúc chân tình với người đã khuất, mong rằng người đã ra đi sẽ sớm đến được bến bờ bình yên.",
-	
+	"Mo_ta": "Sự ra đi đột ngột của người đã khuất luôn để lại niềm tiếc thương vô hạn đối với người ở lại. Càng dành tình cảm cho nhau nhiều thì lại càng lưu luyến nhau, chẳng nỡ xa rời. Kệ hoa chia buồn “Màu lưu luyến” bày tỏ những cảm xúc chân tình với người đã khuất, mong rằng người đã ra đi sẽ sớm đến được bến bờ bình yên.",
 	"Trang_thai": {
 		"Hang_moi_ve": false,
 		"Ti_le_khuyen_mai": 0
 	},
-
-	"Nguon_goc":"Đà Lạt, Việt Nam"
+	"Nguon_goc": "Đà Lạt, Việt Nam",
+	"Danh_sach_Phieu_Dat": [
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 1
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 2
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 3
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 4
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 5
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 6
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 7
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 8
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 9
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 10
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 11
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 12
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 13
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 14
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 15
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 16
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "3",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 2400000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 17
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "9",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 7200000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 18
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 19
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 20
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 21
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 22
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "adad",
+				"Email": "adad",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 23
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "aadad",
+				"Email": "adad",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 24
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "dadad",
+				"Email": "truong@yahoo.com",
+				"Dien_thoai": "099191121313",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 25
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "dad",
+				"Email": "adad",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 26
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "dadad",
+				"Email": "adad",
+				"Dien_thoai": "12122",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 27
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "11111111111111111111111111111111111111111111",
+				"Email": "11111111111111111111111111111111111111",
+				"Dien_thoai": "1111111111111111111111111111111111111111111111111111111111111",
+				"Dia_chi": "11111111111111111111111111",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 28
+		},
+		{
+			"Ngay_Dat_hang": "12:45:25",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "ada",
+				"Email": "dada",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 29
+		},
+		{
+			"Ngay_Dat_hang": "12:47:09, 5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "adad",
+				"Email": "adad",
+				"Dien_thoai": "adad",
+				"Dia_chi": "ad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": "adad"
+			},
+			"So_Phieu_Dat": 30
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 12:48:04 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "adad",
+				"Email": "adad",
+				"Dien_thoai": "ad",
+				"Dia_chi": "adadad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 31
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 13:08:35 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "ddada",
+				"Email": "adad",
+				"Dien_thoai": "dadad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": "ada"
+			},
+			"So_Phieu_Dat": 32
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 16:49:02 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "adad",
+				"Email": "dadd",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 33
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 20:55:54 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "S",
+				"Email": "S",
+				"Dien_thoai": "S",
+				"Dia_chi": "S",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": "S"
+			},
+			"So_Phieu_Dat": 34
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 21:33:47 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "s",
+				"Email": "s",
+				"Dien_thoai": "s",
+				"Dia_chi": "s",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 35
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 21:35:24 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 800000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "1",
+				"Email": "1",
+				"Dien_thoai": "1",
+				"Dia_chi": "1",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 36
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 21:53:42 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "7",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 5600000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "a",
+				"Email": "a",
+				"Dien_thoai": "a",
+				"Dia_chi": "a",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 37
+		},
+		{
+			"Ngay_Dat_hang": "Sun Jan 06 2019 03:03:55 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "8/1/2019",
+			"So_luong": "2",
+			"Don_gia_Ban": 800000,
+			"Thanh_tien": 1600000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "ad",
+				"Email": "adad",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": "adad"
+			},
+			"So_Phieu_Dat": 38
+		}
+	]
 }

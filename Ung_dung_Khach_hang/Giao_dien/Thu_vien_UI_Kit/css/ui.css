@@ -1812,7 +1812,7 @@ article:after,
   display: inline-block; }
 
 .dlist-align dt {
-  width: 90px;
+  /* width: 90px; */
   float: left;
   word-wrap: break-word; }
 .dlist-align dd {

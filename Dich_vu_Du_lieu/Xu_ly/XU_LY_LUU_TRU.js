@@ -50,6 +50,28 @@ class XL_LUU_TRU {
     Doc_Thong_tin_Dich_vu() {
         return Doc_Thong_tin_Dich_vu() // Trả về HTML trang cung cấp dịch vụ
     }
+
+
+    // Hàm ghi mới đối tượng
+    Ghi_moi_Doi_tuong(Loai_Doi_tuong, Doi_tuong) {
+        var Kq = ""
+        try {
+          var Duong_dan = Thu_muc_Du_lieu + "//" + Loai_Doi_tuong + "//" + Doi_tuong.Ma_so + "." + Cong_nghe
+          var Chuoi = JSON.stringify(Doi_tuong, null, "\t")
+          File.writeFileSync(Duong_dan, Chuoi, "UTF-8")
+        } catch (Loi) {
+          Kq = Loi
+        }
+    
+        return Kq
+      }
+
+     // Hàm ghi Cập nhật đối tượng
+      Cap_nhat_Doi_tuong(Loai_Doi_tuong, Doi_tuong) {
+        return this.Ghi_moi_Doi_tuong(Loai_Doi_tuong, Doi_tuong)
+      }
+
+
 }
 
 

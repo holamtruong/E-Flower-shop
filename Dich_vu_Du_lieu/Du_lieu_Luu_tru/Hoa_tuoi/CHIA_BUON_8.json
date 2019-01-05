@@ -3,24 +3,88 @@
 	"Ma_so": "CHIA_BUON_8",
 	"Don_gia_Ban": 700000,
 	"Don_gia_Nhap": 400000,
-	
 	"Chu_de": {
 		"Ten": "Hoa Chia Buồn",
-		"Ma_so": "CHIA_BUON" 
+		"Ma_so": "CHIA_BUON"
 	},
-
-	"Mau_sac":{
-		"Ten":"Màu hồng",
-		"Ma_so":"HONG"
+	"Mau_sac": {
+		"Ten": "Màu hồng",
+		"Ma_so": "HONG"
 	},
-	
-	"Mo_ta":"Hoa tang lễ chính là cách để người ta gửi đến người quá cố lòng tiếc thương vô hạn và thành kính phân ưu, đồng thời chia buồn cùng với người thân của họ. Màu tím từ lâu đã được biết đến như là một màu “hoàng gia”, liên quan đến các nghi lễ kín đáo với vẻ trang nghiêm, niềm tự hào và thành công. Màu tím cũng là biểu tượng của thành tựu, sự tôn trọng và kính cẩn khi một cuộc sống vừa kết thúc.",
-	
+	"Mo_ta": "Hoa tang lễ chính là cách để người ta gửi đến người quá cố lòng tiếc thương vô hạn và thành kính phân ưu, đồng thời chia buồn cùng với người thân của họ. Màu tím từ lâu đã được biết đến như là một màu “hoàng gia”, liên quan đến các nghi lễ kín đáo với vẻ trang nghiêm, niềm tự hào và thành công. Màu tím cũng là biểu tượng của thành tựu, sự tôn trọng và kính cẩn khi một cuộc sống vừa kết thúc.",
 	"Trang_thai": {
 		"Hang_moi_ve": false,
 		"Ti_le_khuyen_mai": 0.1
 	},
-
-	"Nguon_goc":"Châu Âu"
-	
+	"Nguon_goc": "Châu Âu",
+	"Danh_sach_Phieu_Dat": [
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 700000,
+			"Thanh_tien": 700000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 1
+		},
+		{
+			"Ngay_Dat_hang": "5/1/2019",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 700000,
+			"Thanh_tien": 700000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "",
+				"Email": "",
+				"Dien_thoai": "",
+				"Dia_chi": "",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 2
+		},
+		{
+			"Ngay_Dat_hang": "Sat Jan 05 2019 20:09:33 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "7/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 700000,
+			"Thanh_tien": 700000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "a",
+				"Email": "a",
+				"Dien_thoai": "a",
+				"Dia_chi": "a",
+				"Khu_vuc": "Hà Nội",
+				"Ghi_chu": ""
+			},
+			"So_Phieu_Dat": 3
+		},
+		{
+			"Ngay_Dat_hang": "Sun Jan 06 2019 03:03:55 GMT+0700 (Giờ Đông Dương)",
+			"Ngay_Giao_hang_Du_kien": "8/1/2019",
+			"So_luong": "1",
+			"Don_gia_Ban": 630000,
+			"Thanh_tien": 630000,
+			"Trang_thai": "CHUA_GIAO_HANG",
+			"Thong_tin_Khach_hang": {
+				"Ho_ten": "ad",
+				"Email": "adad",
+				"Dien_thoai": "adad",
+				"Dia_chi": "adad",
+				"Khu_vuc": "TP. Hồ Chí Minh",
+				"Ghi_chu": "adad"
+			},
+			"So_Phieu_Dat": 4
+		}
+	]
 }

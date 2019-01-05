@@ -116,13 +116,14 @@
 					<div class="col-lg-11-24 col-sm-8">
 						<form action="#" class="py-1">
 							<div class="input-group w-100">
-								<select id="Th_Sap_xep" class="custom-select" name="category_name">
-									<option value="0">Tất cả</option>
-									<option value="1">Tăng dần</option>
-									<option value="2">Giảm dần</option>
+								<select class="custom-select" name="category_name">
+									<option value="">All type</option>
+									<option value="">Special</option>
+									<option value="">Only best</option>
+									<option value="">Latest</option>
 								</select>
 								<!-- Nút tìm kiếm-->
-								<input id="Th_gtTim" onkeyup="KeyCode(event)" type="text" class="form-control" style="width:50%;" placeholder="Tìm sản phẩm mong muốn">
+								<input id="Th_gtTim" type="text" class="form-control" style="width:50%;" placeholder="Tìm sản phẩm mong muốn">
 								<div class="input-group-append">
 									<a id="Th_Tim" style="background-color:#e92f9f;" class="btn text-white" type="submit">
 										<i class="fa fa-search text-white"></i> Tìm kiếm
@@ -184,132 +185,136 @@
 	</header> <!-- section-header.// -->
 	<!-- ========================= SECTION HEADER END// ========================= -->
 
-	<!-- ========================= SECTION MAIN ========================= -->
-	<section class="section-main bg padding-y-sm">
-		<div class="container">
-			<div class="card">
-				<div class="card-body">
-					<div class="row row-sm">
-						<aside class="col-md-3">
-							<h5 class="text-uppercase text-dark">Chủ đề hoa</h5>
-							<ul class="menu-category">
-								<li> <a id="Th_category_Hoa_tinh_yeu" class="text-secondary font-weight-bold" href="#">Dành cho người yêu
-										thương</a></li>
-								<li> <a id="Th_category_Hoa_sinh_nhat" class="text-secondary font-weight-bold" href="#">Quà tặng bạn bè</a></li>
-								<li> <a id="Th_category_Hoa_le_cuoi" class="text-secondary font-weight-bold" href="#">Hoa cho lễ cưới</a></li>
-								<li> <a id="Th_category_Hoa_tot_nghiep" class="text-secondary font-weight-bold" href="#">Lễ tốt nghiệp, khai
-										trương </a></li>
-								<li> <a id="Th_category_Hoa_thay_co" class="text-secondary font-weight-bold" href="#">Dành tặng đối tác, đồng
-										nghiệp</a></li>
-								<li> <a id="Th_category_Hoa_chia_buon" class="text-secondary font-weight-bold" href="#">Hoa chia buồn</a></li>
-								<li> <a id="Th_category_Dip_quan_trong" class="text-secondary font-weight-bold" href="#">Diệp quan trọng</a></li>
-							</ul>
-						</aside> <!-- col.// -->
 
-
-						<div class="col-md-6">
-							<!-- ================= main slide ================= -->
-							<div class="owl-init slider-main owl-carousel" data-items="1" data-nav="true" data-dots="false">
-								<div class="item-slide">
-									<img src="Thu_vien_UI_Kit/images/banners/slide1.jpg">
-								</div>
-								<div class="item-slide">
-									<img src="Thu_vien_UI_Kit/images/banners/slide2.jpg">
-								</div>
-								<div class="item-slide">
-									<img src="Thu_vien_UI_Kit/images/banners/slide3.jpg">
-								</div>
-							</div>
-							<!-- ============== main slidesow .end // ============= -->
-						</div> <!-- col.// -->
-
-						<!-- ============== Danh sách khuyến mãi ============= -->
-
-
-						<aside class="col-md-3">
-							<div class="card">
-								<table class="table table-hover shopping-cart-wrap">
-									<thead class="text-muted">
-										<tr class="text-white" style="background-color:#e92f9f;">
-											<th scope="col">Top sản phẩm khuyến mãi</th>
-										</tr>
-									</thead>
-									<tbody id="Th_Danh_top_Khuyen_mai">
-
-										<tr>
-											<td>
-												<figure class="media">
-													<div class="img-wrap"><img src="Thu_vien_UI_Kit/images/items/1.jpg" class="img-thumbnail img-sm"></div>
-													<figcaption class="media-body">
-														<h6 class="title text-truncate">Product name goes here </h6>
-														<dl class="dlist-inline small">
-															<dd><span class="price-new">000.000 đ</span></dd>
-															<del class="price-old">000.000 đ</del>
-														</dl>
-														<dl class="dlist-inline">
-															<span class="badge badge-warning">-30%</span>
-														</dl>
-													</figcaption>
-												</figure>
-											</td>
-										</tr>
-
-
-									</tbody>
-								</table>
-							</div> <!-- card.// -->
-						</aside>
-					</div> <!-- row.// -->
-				</div> <!-- card-body .// -->
-			</div> <!-- card.// -->
-		</div> <!-- container .//  -->
-	</section>
-	<!-- ========================= SECTION MAIN END// ========================= -->
-
-
-	<!-- ========================= SECTION ITEMS : DANH SÁCH KẾT QUẢ TÌM KIẾM ========================= -->
-	<span id="Th_Kq_Tim">
-
-	</span>
-	<!-- ========================= SECTION ITEMS : DANH SÁCH KẾT QUẢ TÌM KIẾM -- END//========================= -->
-
-
-
-	<!-- ========================= SECTION ITEMS: DANH SÁCH TẤT CẢ HOA   ========================= -->
-	<section class="section-content padding-y-sm bg">
+	<!-- ========================= SECTION ITEMS: .............========================= -->
+	<section class="section-content padding-y bg">
 		<div class="container">
 
-
-			<header class="section-heading heading-line">
-				<h4 class="title-section bg"><span id="Th_So_luong_san_pham"></span>
-				 </h4>
-			</header>
-			<div class="card">
-
+			<div class="card mb-3">
 				<div class="card-body">
-					<div class="text-right" style="margin-right:15px; ">
-						<button  class="btn btn-outline-success" onclick="Sap_Tang_Gia()"> <i class="fas fa-arrow-up"></i> Giá tăng dần </button>
-						<button  class="btn btn-outline-success" onclick="Sap_Giam_Gia()"> <i class="fas fa-arrow-down"></i> Giá giảm dần </button>
-					</div>
-					<!-- <div class="row row-sm"> -->
-					<section class="section-request padding-y-sm">
-						<div class="container">
-							<!--====== Danh sách hoa =========== -->
+					<header class="section-heading">
+						<h4 class="title-section text-danger"><i class="fas fa-shopping-bag text-danger"></i> Chính sách đổi trả hàng</h4>
+					</header>
+					<article>
+						<p>E-Flower luôn trân trọng sự tín nhiệm của quý khách giành cho chúng tôi. Chính vì vậy, chúng tôi luôn cố gắng
+							để mang đến quý khách hàng những sản phẩm chất lượng cao và tiết kiệm chi phí. Quy định về điều khoản "trả lại
+							hàng" của E-Flower sẽ bao gồm: quy định về thời gian đổi trả, cách
+							đổi trả, mức hoàn tiền & mức phí theo nội dung đã cung cấp bên trên, cùng với điều kiện đổi trả như sau.
+						</p>
 
-							<div class="row-sm" id="Th_Danh_sach_Hoa">
+						<h5 class="title-section">Còn đầy đủ bao bì sản phẩm (mất hộp thu phí 2%):</h5>
+						<p>Trong trường hợp máy không lên nguồn hoặc không xác định được lỗi, phải chuyển Trung Tâm Bảo Hành của Hãng
+							thẩm định trước khi ra quyết định nhập đổi, nhập trả.
+							Còn đầy đủ phiếu bảo hành (nếu có) và phụ kiện đi kèm (mất thu phí theo qui định và lớn nhất là 5% trên giá
+							hoá
+							đơn).
+						</p>
+
+						<h5 class="title-section">Quà khuyến mãi:</h5>
+						<p>
+							Quà khuyến mãi: thu phí theo giá hoàn lại do E-Flower công bố khi bán sản phẩm. Nếu không công bố giá trị
+							khuyến
+							mãi thì sẽ thu phí không lớn hơn 5% giá trị cho mỗi món quà khuyến mãi .
+						</p>
+						<h5 class="title-section">Thời gian đổi trả:</h5>
+						<ul>
+							<li>Trong 2 ngày đầu tiên: huỷ hợp đồng, không chịu phí.</li>
+							<li>Sau 2 ngày: quý khách phải thanh lý hợp đồng và chịu phí theo đơn hàng.</li>
+						</ul>
+
+						<h5 class="title-section"> Trường hợp chấp nhận đổi trả hàng</h5>
+						<ul>
+							<li>Không đúng chủng loại, mẫu mã như quý khách đặt hàng.</li>
+							<li>Không đủ số lượng, không đủ bộ như trong đơn hàng.</li>
+							<li>Tình trạng bên ngoài bị ảnh hưởng như bong tróc, bể vỡ xảy ra trong quá trình vận chuyển,…</li>
+							<li>Không đạt chất lượng như: hết bảo hành, không vận hành được, hỏng hóc khách quan ,...</li>
+						</ul>
 
 
-							</div>
-						</div><!-- container // -->
-					</section>
-					<!-- </div> -->
-					<!-- row.// -->
+						<h5 class="title-section">E-Flower shop sẽ không chấp nhận đổi/trả hàng khi:</h5>
+						<ul>
+							<li>Quý khách muốn thay đổi chủng loại, mẫu mã nhưng không thông báo trước.</li>
+							<li>Quý khách tự làm ảnh hưởng tình trạng bên ngoài như rách bao bì, bong tróc, bể vỡ,…</li>
+							<li> Quý khách không thực hiện các quy định theo yêu cầu để được hưởng chế độ bảo hành (ví dụ không gửi phiếu
+								bảo
+								hành về đúng nơi quy định trong thời gian quy định).</li>
+							<li>Không đạt chất lượng như: hết bảo hành, không vận hành được, hỏng hóc khách quan ,...</li>
+							<li> Quý khách đã kiểm tra và ký nhận tình trạng hàng hóa nhưng không có phản hồi trong vòng 24h kể từ lúc ký
+								nhận
+								hàng.</li>
+						</ul>
+
+						<p class="text-danger font-weight-bold">Quý khách vui lòng kiểm tra hàng hóa và ký nhận tình trạng với nhân viên
+							giao hàng ngay khi nhận được hàng.
+							Khi phát hiện một trong các trường hợp trên, quý khách có thể trao đổi trực tiếp với nhân viên giao hàng hoặc
+							phản
+							hồi cho chúng tôi trong vòng 24h theo đường dây nóng, Hotline : 1900.3979
+						</p>
+
+
+
+
+					</article>
 				</div> <!-- card-body .// -->
 			</div> <!-- card.// -->
 
+
 		</div> <!-- container .//  -->
 	</section>
-	<!-- ========================= SECTION ITEMS: DANH SÁCH TẤT CẢ HOA  .END//========================= -->
+	<!-- ========================= SECTION ITEMS: .............========================= -->
+
+	<!-- ========================= SECTION ITEMS: .............========================= -->
+	<section class="section-content padding-y bg">
+		<div class="container">
+
+			<div class="card mb-3">
+				<div class="card-body">
+					<header class="section-heading">
+						<h4 class="title-section text-danger"><i class="fas fa-shield-alt"></i> Chính sách bảo mật</h4>
+					</header>
+					<article>
+
+						<h5 class="title-section">Đăng ký và xác thực tất cả các phương thức bảo mật tài khoản</h5>
+						<p>Tài khoản đang được cung cấp 3 phương thức bảo mật gồm:<br>
+							- Email xác thực (hướng dẫn xác thực Email)
+							- Số điện thoại xác thực (hướng dẫn xác thực Số điện thoại) <br>
+							- Chứng Minh Nhân Dân (hướng dẫn xác thực CMND)<br>
+							- Vui lòng truy cập Trung tâm tài khoản để xác thực tất cả các thông tin để tài khoản được bảo vệ ở mức độ cao
+							nhất.</p>
+
+						<h5 class="title-section">Không truy cập các trang Web & Fanpage không rõ nguồn gốc, lừa đảo</h5>
+						<p> Các trang Web & Fanpage không rõ nguồn gốc, lừa đảo thường được thiết kế giống như trang web chính thức của
+							Garena cùng hàng loạt khuyến mãi khủng, tổ chức giải đấu hấp dẫn,... nhằm mục đích đánh cắp tài khoản người
+							dùng.
+							Vì vậy để nhận biết các trang web/fanpage này, các bạn cần chú ý các điểm sau:<br>
+							- Đường dẫn trang web sẽ không có đuôi “.garena.vn”<br>
+							- Fanpage không có dấu stick xanh của Facebook<br>
+							- Yêu cầu khách hàng cung cấp mật khẩu tài khoản, mật khẩu Email,....<br>
+							- Garena không bao giờ yêu cầu khách hàng cung cấp mật khẩu tài khoản hoặc mật khẩu Email. <br>
+							- Khi gặp các trang web dấu hiệu như trên, hãy cung cấp thông tin cho chúng tôi tại đây để nhận được sự hỗ trợ
+							khuyến cáo và ngăn chặn,
+							giúp bạn hạn chế rủi ro.</p>
+
+						<h5 class="title-section">Không chia sẻ và buôn bán tài khoản</h5>
+						<p>Trong quá trình sử dụng, có thể tài khoản sẽ được đăng nhập trên nhiều máy tính và khiến mật khẩu bị lộ (máy
+							bịnhiễm virus, máy có chứa các phần mềm đánh cắp thông tin tài khoản,..). Vì vậy hãy thường xuyên thay đổi mật
+							khẩu 3 tháng một lần, điều này sẽ giúp tài khoản của bạn trở nên an toàn hơn.</p>
+
+						<h5 class="title-section">Thường xuyên thay đổi mật khẩu</h5>
+						<p>Chia sẻ và buôn bán tài khoản sẽ khiến tài khoản không còn an toàn, thông tin bảo mật dễ dàng bị thay đổi và
+							dẫn
+							đến tranh chấp tài khoản. Khi đó tài khoản sẽ bị khóa và thời gian giải quyết lên đến 60 ngày, do đó hãy hạn chế
+							việc chia sẻ và buôn bán tài khoản để tránh gặp những vấn đề đáng tiếc..</p>
+
+					</article>
+				</div> <!-- card-body .// -->
+			</div> <!-- card.// -->
+
+		</div> <!-- container .//  -->
+	</section>
+	<!-- ========================= SECTION ITEMS: .............========================= -->
+
+
 
 	<!-- ========================= SECTION ITEMS: .............========================= -->
 	<section class="section-content padding-y bg">
@@ -355,6 +360,7 @@
 							cho ngành hoa tươi tại Việt Nam đựa trên nền tảng JavaScript. Việc ứng dụng công nghệ giúp chúng tôi
 							tiết kiệm những quy trình không cần thiết để giảm giá thành sản phẩm và giải quyết được nhiều bài toán lớn về
 							chuỗi cung ứng hoa tươi trên cả nước.</p>
+
 					</article>
 				</div> <!-- card-body .// -->
 			</div> <!-- card.// -->
@@ -363,6 +369,26 @@
 		</div> <!-- container .//  -->
 	</section>
 	<!-- ========================= SECTION ITEMS: .............========================= -->
+
+	<!-- ========================= SECTION ITEMS: .............========================= -->
+	<section class="section-content padding-y bg">
+		<div class="container">
+
+			<div class="card mb-3">
+				
+				<div class="card-body">
+						<header class="section-heading">
+								<h4 class="title-section text-danger"><i class="fas fa-map"></i> Vị trí cửa hàng</h4>
+							</header>
+					<div id="map" style="height: 30rem; width: 100%;"></div>
+				</div> <!-- card-body .// -->
+			</div> <!-- card.// -->
+
+
+		</div> <!-- container .//  -->
+	</section>
+	<!-- ========================= SECTION ITEMS: .............========================= -->
+
 
 	<!-- ========================= SECTION SUBSCRIBE ========================= -->
 	<section class="section-subscribe bg-secondary padding-y-lg">
@@ -472,6 +498,8 @@
 
 	<!-- ********************************* LIÊN KẾT TẬP TIN JAVASCRIPT ********************-->
 	<script src="../Xu_ly/Xu_ly_3L.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw3QZ5hhReTIJLSWz7o_582Wm3p6PV-EM&language=vi"></script>
+	<script src="../Xu_ly/Xu_ly_google_map.js"></script>
 
 
 	<!-- **********************************  XỬ LÝ JAVASCRIPT ****************************-->
@@ -491,13 +519,7 @@
 
 
 
-		//*********** Xuất thể hiện danh sách Tất cả hoa hoa ***********
-		if (Danh_sach_Hoa.length > 0) {
-			Th_So_luong_san_pham.innerHTML = `Danh sách hoa tươi (${Danh_sach_Hoa.length})`
-			Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Hoa, Th_Danh_sach_Hoa, myModal)
-		} else {
-			Th_So_luong_san_pham.innerHTML = "(Lỗi đọc dữ liệu)"
-		}
+
 
 		//*********** Xuất số lượng sản phẩm cho Giỏ hàng -đọc từ Session Storage ***********
 		if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
@@ -510,227 +532,35 @@
 		//********** Lọc theo chủ đề  *************************
 		//Chủ đề tình yêu
 		Th_Dm_Hoa_tinh_yeu.onclick = () => {
-			var DS_Hoa_tinh_yeu = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TINH_YEU")
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_tinh_yeu, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Chủ đề tình yêu (${DS_Hoa_tinh_yeu.length})`
+			window.location = 'MH_Danh_sach_Hoa.html'
 		}
 
 		//Chủ đề thầy cô
 		Th_Dm_Hoa_thay_co.onclick = () => {
-			var DS_Hoa_thay_co = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "THAY_CO")
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_thay_co, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Chủ đề thầy cô (${DS_Hoa_thay_co.length})`
+			window.location = 'MH_Danh_sach_Hoa.html'
 		}
 
 		//Chủ đề sinh nhật
 		Th_Dm_Hoa_sinh_nhat.onclick = () => {
-			var DS_Hoa_sinh_nhat = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "SINH_NHAT")
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_sinh_nhat, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Chủ đề sinh nhật (${DS_Hoa_sinh_nhat.length})`
+			window.location = 'MH_Danh_sach_Hoa.html'
 		}
 
 		//Chủ đề tốt nghiệp
 		Th_Dm_Hoa_tot_nghiep.onclick = () => {
-			var DS_Hoa_tot_nghiep = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TOT_NGHIEP")
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_tot_nghiep, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Chủ đề tốt nghiệp (${DS_Hoa_tot_nghiep.length})`
+			window.location = 'MH_Danh_sach_Hoa.html'
 		}
 
 		//Chủ đề chia buồn
 		Th_Dm_Hoa_chia_buon.onclick = () => {
-			var DS_Hoa_chia_buon = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "CHIA_BUON")
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_chia_buon, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Chủ đề chia buồn (${DS_Hoa_chia_buon.length})`
+			window.location = 'MH_Danh_sach_Hoa.html'
 		}
-
-
-
-		//********** Lọc theo chủ đề - Menu bar  *************************
-
-		// Th_category_Hoa_tinh_yeu
-		Th_category_Hoa_tinh_yeu.onclick = () => {
-			var DS_Hoa_tinh_yeu = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TINH_YEU")
-			var DS_Hoa_sinh_nhat = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "SINH_NHAT")
-			var DS_Tang_Nguoi_ay = DS_Hoa_tinh_yeu.concat(DS_Hoa_sinh_nhat) //ghép 2 chủ đề
-			Xuat_The_hien_Danh_sach_Hoa(DS_Tang_Nguoi_ay, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Dành tặng người yêu thương (${DS_Tang_Nguoi_ay.length})`
-		}
-
-		//Th_category_Hoa_sinh_nhat
-		Th_category_Hoa_sinh_nhat.onclick = () => {
-			var DS_Hoa_sinh_nhat = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "SINH_NHAT")
-			var DS_Hoa_tot_nghiep = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TOT_NGHIEP")
-			var DS_Ban_be = DS_Hoa_sinh_nhat.concat(DS_Hoa_tot_nghiep)  //Ghép 2 chủ đề
-			Xuat_The_hien_Danh_sach_Hoa(DS_Ban_be, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Quà tặng bạn bè (${DS_Ban_be.length})`
-		}
-
-		//Th_category_Hoa_le_cuoi
-		Th_category_Hoa_le_cuoi.onclick = () => {
-			var DS_Hoa_tinh_yeu = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TINH_YEU")
-			var DS_Hoa_sinh_nhat = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "SINH_NHAT")
-			var DS_Hoa_le_cuoi = DS_Hoa_sinh_nhat.concat(DS_Hoa_tinh_yeu) //Ghép 2 chủ đề
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_le_cuoi, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Hoa cho lễ cưới (${DS_Hoa_le_cuoi.length})`
-		}
-
-		//Th_category_Hoa_tot_nghiep,khai truong
-		Th_category_Hoa_tot_nghiep.onclick = () => {
-			var DS_Hoa_tot_nghiep = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TOT_NGHIEP")
-			var DS_Hoa_sinh_nhat = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "SINH_NHAT")
-			var DS_Hoa_Tot_nghiep_Khai_truong = DS_Hoa_tot_nghiep.concat(DS_Hoa_sinh_nhat) //Ghép 2 chủ đề
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_Tot_nghiep_Khai_truong, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Lễ tốt nghiệp, khai trương (${DS_Hoa_Tot_nghiep_Khai_truong.length})`
-		}
-
-		//Th_category_Hoa_thay_co, doi tac
-		Th_category_Hoa_thay_co.onclick = () => {
-			var DS_Hoa_thay_co = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "THAY_CO")
-			var DS_Hoa_tot_nghiep = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TOT_NGHIEP")
-			var DS_Thay_co_Doi_tac = DS_Hoa_thay_co.concat(DS_Hoa_tot_nghiep)  //Ghép 2 chủ đề
-			Xuat_The_hien_Danh_sach_Hoa(DS_Thay_co_Doi_tac, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Dành tặng đối tác, đồng nghiệp (${DS_Thay_co_Doi_tac.length})`
-		}
-
-		//Th_category_Hoa_chia_buon
-		Th_category_Hoa_chia_buon.onclick = () => {
-			var DS_Hoa_chia_buon = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "CHIA_BUON")
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_chia_buon, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Hoa chia buồn (${DS_Hoa_chia_buon.length})`
-		}
-		//Th_category_Dip_quan_trong
-		Th_category_Dip_quan_trong.onclick = () => {
-			var DS_Hoa_tot_nghiep = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "TOT_NGHIEP")
-			var DS_Hoa_sinh_nhat = Danh_sach_Hoa.filter(x => x.Chu_de.Ma_so == "SINH_NHAT")
-			var DS_Hoa_Tot_nghiep_Khai_truong = DS_Hoa_tot_nghiep.concat(DS_Hoa_sinh_nhat) //Ghép 2 chủ đề
-			Xuat_The_hien_Danh_sach_Hoa(DS_Hoa_Tot_nghiep_Khai_truong, Th_Danh_sach_Hoa, myModal)
-			Th_So_luong_san_pham.innerHTML = `Dịp quan trọng (${DS_Hoa_Tot_nghiep_Khai_truong.length})`
-		}
-
-
-
-		//********** Chức năng Top giá khuyến mãi **********************
-		Xuat_The_hien_Danh_sach_Hoa_Ti_le_khuyen_mai(Danh_sach_Hoa, Th_Danh_top_Khuyen_mai, myModal)
-
 
 		//************** Chúc năng tìm kiếm *****************
 
 		// Nút tìm kiếm
 		Th_Tim.onclick = () => {
-			var Hop_le = Th_gtTim.value.trim() != ""
-			if (Hop_le) {
-				var gtTim = Th_gtTim.value.trim()
-				var Danh_sach_Tim = Danh_sach_Hoa.filter(x => x.Ten.toLowerCase().includes(gtTim.toLowerCase()))
-				Th_Kq_Tim.innerHTML = `
-				<!-- ========================= SECTION ITEMS: DANH SÁCH KẾT QUẢ TÌM KIẾM  =============================== -->
-										<section class="section-main bg padding-y-sm">
-											<div class="container">
-												<div class="card">
-													<div class="card-body">
-															<section class="section-request padding-y-sm">
-																	<div class="container">
-																			<!--====== Danh sách hoa =========== -->
-																			<header class="section">
-																				<h4 class="title-section"><span id="Th_So_luong_Ket_qua_Tim_kiem"></span> </h4>
-																			</header>
-																			<hr>
-																			<div class="row-sm" id="Th_Danh_sach_Ket_qua_Tim_kiem">
-											
-											
-																			</div>
-																		</div><!-- container // -->
-															</section>
-													</div> <!-- card-body .// -->
-												</div> <!-- card.// -->
-											</div> <!-- container .// -->
-										</section>
-				<!-- ========================= SECTION ITEMS:DANH SÁCH KẾT QUẢ TÌM KIẾM  .END// ========================= -->
-				`
-				Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Tim, Th_Danh_sach_Ket_qua_Tim_kiem, myModal)
-				Th_So_luong_Ket_qua_Tim_kiem.innerHTML = `Tìm kiếm <strong>&ldquo;${gtTim}&ldquo;</strong>: ${Danh_sach_Tim.length} kết quả`
-			} else {
-				var input = document.getElementById("Th_gtTim")
-				input.placeholder = "Vui lòng tên sản phẩm"
-				Th_gtTim.focus()
-			}
+			window.location = 'MH_Danh_sach_Hoa.html'
 		}
-
-		// Hàm dùng Nút Enter để tìm
-		function KeyCode(event) {
-			// event.keyCode == 13 -> phím enter
-			if (event.keyCode == 13) {
-				var Hop_le = Th_gtTim.value.trim() != ""
-				if (Hop_le) {
-					var gtTim = Th_gtTim.value.trim()
-					var Danh_sach_Tim = Danh_sach_Hoa.filter(x => x.Ten.toLowerCase().includes(gtTim.toLowerCase()))
-					Th_Kq_Tim.innerHTML = `
-						<!-- ========================= SECTION ITEMS: DANH SÁCH KẾT QUẢ TÌM KIẾM  =============================== -->
-												<section class="section-main bg padding-y-sm">
-													<div class="container">
-														<div class="card">
-															<div class="card-body">
-																	<section class="section-request padding-y-sm">
-																			<div class="container">
-																					<!--====== Danh sách hoa =========== -->
-																					<header class="section">
-																						<h4 class="title-section"><span id="Th_So_luong_Ket_qua_Tim_kiem"></span> </h4>
-																					</header>
-																					<hr>
-																					<div class="row-sm" id="Th_Danh_sach_Ket_qua_Tim_kiem">
-													
-													
-																					</div>
-																				</div><!-- container // -->
-																	</section>
-															</div> <!-- card-body .// -->
-														</div> <!-- card.// -->
-													</div> <!-- container .// -->
-												</section>
-						<!-- ========================= SECTION ITEMS:DANH SÁCH KẾT QUẢ TÌM KIẾM  .END// ========================= -->
-						`
-					Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Tim, Th_Danh_sach_Ket_qua_Tim_kiem, myModal)
-					Th_So_luong_Ket_qua_Tim_kiem.innerHTML = `Tìm kiếm <strong>&ldquo;${gtTim}&ldquo;</strong>: ${Danh_sach_Tim.length} kết quả`
-				} else {
-					var input = document.getElementById("Th_gtTim")
-					input.placeholder = "Vui lòng tên sản phẩm"
-					Th_gtTim.focus()
-				}
-			}
-		}
-
-
-
-
-		//******** Sắp xếp theo giá *******************
-
-		function Sap_Tang_Gia() {
-			// Là số
-			Danh_sach_Hoa.sort((a, b) => {
-				return parseInt(a.Don_gia_Ban) - parseInt(b.Don_gia_Ban)
-			})
-			Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Hoa, Th_Danh_sach_Hoa, myModal)
-		}
-
-		function Sap_Giam_Gia() {
-			// Là số
-			Danh_sach_Hoa.sort((a, b) => {
-				return parseInt(b.Don_gia_Ban) - parseInt(a.Don_gia_Ban)
-			})
-			Xuat_The_hien_Danh_sach_Hoa(Danh_sach_Hoa, Th_Danh_sach_Hoa, myModal)
-		}
-
-
-		Th_Sap_xep.onchange = () => {
-            var vt = Th_Sap_xep.value
-            switch (parseInt(vt)) {
-                case 1:
-				Sap_Tang_Gia()
-                    break;
-                case 2:
-				Sap_Giam_Gia()
-            }
-        }
-
 
 
 

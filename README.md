@@ -1,4 +1,4 @@
-# E-Flower-shop
+﻿# E-Flower-shop
 Địa chỉ demo: http://hltruong.laptrinhjavascript.net
 
 DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
@@ -12,4 +12,5 @@ DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
 - 25/12/2018: Cập nhật Màn hình chính (MH_Danh_sach_Hoa): Xuất thể hiện danh sách hoa (card)
 - 28/12/2018: Bổ sung màn hình Giỏ hàng, màn hình Thanh toán;
 - 02/01/2019: Bổ sung chức năng load Modal cho danh sách hoa dùng Jquery, cập nhật nút Remove cho Giỏ hàng
+- 05/01/2019: Hoàn thành Ứng dụng Web cơ bản
 

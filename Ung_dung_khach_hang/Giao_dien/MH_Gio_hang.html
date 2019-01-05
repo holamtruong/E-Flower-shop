@@ -66,15 +66,15 @@
                         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                 Dịch vụ của chúng tôi </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Dịch vụ giao hàng</a></li>
-                                <li><a class="dropdown-item" href="#">Dịch vụ đặt hoa theo yêu cầu</a></li>
+                                <li><a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Dịch vụ giao hàng</a></li>
+                                <li><a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Dịch vụ đặt hoa theo yêu cầu</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                 Liên hệ với chúng tôi</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Trung tâm hỗ trợ khách hàng</a></li>
-                                <li><a class="dropdown-item" href="#">Nộp đơn tuyển dụng</a></li>
+                                <li><a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Trung tâm hỗ trợ khách hàng</a></li>
+                                <li><a class="dropdown-item" href="MH_Tuyen_dung.html">Nộp đơn tuyển dụng</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -152,8 +152,8 @@
                                             <button type="submit" class="btn btn-primary">Đăng nhập</button>
                                         </form>
                                         <hr class="dropdown-divider">
-                                        <a class="dropdown-item" href="#">Đăng ký tài khoản</a>
-                                        <a class="dropdown-item" href="#">Quên mật khẩu?</a>
+                                        <a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Đăng ký tài khoản</a>
+                                        <a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Quên mật khẩu?</a>
                                     </div> <!--  dropdown-menu .// -->
                                 </div> <!-- widget-header .// -->
                             </div> <!-- col.// -->
@@ -186,12 +186,12 @@
                 <main class="col-sm-9">
 
                     <div class="card">
-                        <table class="table table-hover shopping-cart-wrap">
+                        <table class="table table-hover shopping-cart-wrap table-responsive-xl">
                             <!-- ========================= Tiêu đề bảng danh sách sản phẩm ========================= -->
                             <thead class="text-muted">
                                 <tr>
                                     <th scope="col" width="40%">Sản phẩm</th>
-                                    <th scope="col" class="text-right" width="10%">Số lượng</th>
+                                    <th scope="col" class="text-left" width="10%">Số lượng</th>
                                     <th scope="col" class="text-right" width="30%">Đơn giá</th>
                                     <th scope="col" class="text-right" width="20%">Lựa chọn</th>
                                 </tr>
@@ -209,23 +209,23 @@
 
                 <!-- ===============Thông tin thanh toán========-->
                 <aside class="col-sm-3">
-                    <p class="alert alert-success"> <strong>Lưu ý: </strong> Đơn hàng trên 500.000đ được miễn phí giao
+                    <p class="alert alert-success"> <strong>Lưu ý: </strong> Đơn hàng trên 300.000đ được miễn phí giao
                         hàng trong nội thành TP. Hồ Chí Minh. </p>
-                    <dl class="dlist-align small">
-                        <dt>Giá gốc: </dt>
-                        <dd class="text-right">2.000.000 ₫</dd>
-                    </dl>
-                    <dl class="dlist-align small">
-                        <dt>Giảm giá:</dt>
-                        <dd class="text-right">500.000 ₫</dd>
-                    </dl>
-                    <dl class="dlist-align h6">
-                        <dt>Thành tiền:</dt>
-                        <dd class="text-right text-danger"><strong>1.500.000 ₫</strong></dd>
+                    <dl>
+                        <form class="card p-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Promo code">
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-secondary">Mã giảm giá</button>
+                                </div>
+                            </div>
+                        </form>
                     </dl>
                     <dl>
-                        <a href="MH_Thanh_toan.html" class="btn btn-danger col-sm-12">Tiến hành đặt hàng</a>
+                        <a id="Th_Tien_hanh_Dat_hang" href="MH_Thanh_toan.html" class="btn btn-danger col-sm-12">Tiến
+                            hành đặt hàng</a>
                     </dl>
+
                     <hr>
                     <figure class="itemside mb-3">
                         <aside class="aside"><img src="Thu_vien_UI_Kit/images/icons/pay-visa.png"></aside>
@@ -260,10 +260,10 @@
             <div class="row justify-content-md-center">
                 <div class="col-lg-4 col-sm-6">
                     <form class="row-sm form-noborder">
-                        <div class="col-8">
+                        <div class="col-xl-8">
                             <input class="form-control" placeholder="Email của bạn" type="email">
                         </div> <!-- col.// -->
-                        <div class="col-4">
+                        <div class="col-xl-4">
                             <button type="submit" class="btn btn-block btn-warning"> <i class="fa fa-envelope"></i>
                                 Theo dõi </button>
                         </div> <!-- col.// -->
@@ -285,20 +285,20 @@
                     <aside class="col-sm-3 col-md-3 white">
                         <h5 class="title">HỖ TRỢ KHÁCH HÀNG </h5>
                         <ul class="list-unstyled">
-                            <li> <a href="#">Trung tâm hỗ trợ khách hàng</a></li>
-                            <li><a href="#">Dịch vụ giao hàng</a></li>
-                            <li><a href="#">Dịch vụ đặt hoa theo yêu cầu</a></li>
-                            <li> <a href="#">Gửi yêu cầu hỗ trợ</a></li>
-                            <li> <a href="#">Chính sách đổi trả</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html">Trung tâm hỗ trợ khách hàng</a></li>
+                            <li><a href="MH_Trung_tam_ho_tro.html">Dịch vụ giao hàng</a></li>
+                            <li><a href="MH_Trung_tam_ho_tro.html">Dịch vụ đặt hoa theo yêu cầu</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html">Gửi yêu cầu hỗ trợ</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html">Chính sách đổi trả</a></li>
                         </ul>
                     </aside>
                     <aside class="col-sm-3  col-md-3 white">
                         <h5 class="title">DANH SÁCH CỬA HÀNG</h5>
                         <ul class="list-unstyled">
-                            <li> <a href="#"> Chi nhánh Quận 1, TP.HCM</a></li>
-                            <li> <a href="#"> Chi nhánh Quận 3, TP.HCM</a></li>
-                            <li> <a href="#"> Chi nhánh Quận 5, TP.HCM</a></li>
-                            <li> <a href="#"> Chi nhánh Hoàn Kiếm, Hà Nội</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Quận 1, TP.HCM</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Quận 3, TP.HCM</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Quận 5, TP.HCM</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Hoàn Kiếm, Hà Nội</a></li>
 
                         </ul>
                     </aside>
@@ -311,8 +311,8 @@
                                 <img src="Thu_vien_UI_Kit/images/icons/pay-american-ex.png">
                             </li>
 
-                            <li> <a href="#"> Phương thức chuyển tiền</a></li>
-                            <li> <a href="#"> Giấy phép kinh doanh</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Phương thức chuyển tiền</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Giấy phép kinh doanh</a></li>
                         </ul>
                     </aside>
                     <aside class="col-sm-3">
@@ -357,8 +357,12 @@
     <script src="../Xu_ly/Xu_ly_3L.js"></script>
 
 
+
     <!-- **********************************  XỬ LÝ JAVASCRIPT ****************************-->
     <script>
+
+        //************************* KHAI BÁO ĐƯỜNG DẪN DỊCH VỤ ********************************************
+        var Dia_chi_Dich_vu_Media = "http://localhost:1001"
 
         //*********** Xuất dữ liệu dữ liệu hoa, thông tin cửa hàng ***********
         // Đọc tất cả Dữ liệu lưu trữ
@@ -373,30 +377,33 @@
         Xuat_Thong_tin_Cua_hang(Cua_hang, Th_Ten_Cuahang, Th_Dia_chi, Th_Dienthoai_top, Th_Dienthoai_bot, Th_logo)
 
 
-        //*********** Xuất số lượng sản phẩm cho Giỏ hàng -đọc từ Session Storage ***********
+        //*********** Đọc số lượng sản phẩm cho Giỏ hàng - từ Session Storage ***********
         if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
-            var ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon")) //chuyển chuỗi trong Item của Session Storage về Object
-            var So_luong_SP = ds.length // Đếm số đối tượng
+            var Danh_sach_Chon = JSON.parse(sessionStorage.getItem("Danh_sach_Chon")) //chuyển chuỗi về JSON
+            console.log("Danh_sach_Chon:")
+            console.log(Danh_sach_Chon)
+            var So_luong_SP = Danh_sach_Chon.length // Đếm số đối tượng
             Th_Gio_hang_So_luong_SP.innerHTML = `<u>${So_luong_SP}</u>` //xuất số lượng sp lên icon giỏ hàng
         }
 
 
+
         //************ Xuất danh sách sản phẩm trong Giỏ hàng
         var Danh_sach_Cap_nhat = []
-        Danh_sach_Chon = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
-
         if (Danh_sach_Chon != null) {
             Danh_sach_Chon.forEach(ten_ma_so => {
                 var Hoa_tuoi = Danh_sach_Hoa.find(x => x.Ma_so == ten_ma_so)
                 Danh_sach_Cap_nhat.push(Hoa_tuoi)
             })
+            console.log("Danh_sach_Cap_nhat:")
+            console.log(Danh_sach_Cap_nhat)
             //Xuất danh sách sản phẩm trong giỏ hàng
             Xuat_Danh_sach_San_pham_mua(Danh_sach_Cap_nhat, Th_Danh_sach_SP_trong_Gio_hang)
 
         } else {
             //Xuất danh sách rỗng
             Th_Card_Danh_sach.innerHTML = `      
-            <main class="col-sm-9 align-items-center justify-content-center">
+            <main class="col-sm-12 align-items-center justify-content-center">
                 <div class="card align-items-center justify-content-center">
                     <table class="table table-hover shopping-cart-wrap align-items-center justify-content-center">
                         <tbody>
@@ -409,7 +416,7 @@
 						            <i class="fa fa-shopping-cart"></i>
 					        </span>
                             <hr> 
-                            <a href="MH_Danh_sach_Hoa.html" class="btn btn-warning btn col-3">Tiếp tục mua sắm </a>
+                            <a href="MH_Danh_sach_Hoa.html" class="btn btn-warning btn col-sm-3">Tiếp tục mua sắm </a>
                             <hr>
                         </tbody>
                     </table>
@@ -423,17 +430,30 @@
         function Xuat_Danh_sach_San_pham_mua(Danh_sach_Mua, Th_Cha) {
             Th_Cha.innerHTML = ""
             var noi_dung_HTML = ``
-            console.log(Danh_sach_Mua)
             Danh_sach_Mua.forEach(San_pham_Mua => {
                 // Tính toán giá tiền khuyến mãi
                 var Gia_goc = San_pham_Mua.Don_gia_Ban  //number
                 var Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (San_pham_Mua.Trang_thai.Ti_le_khuyen_mai))  //number
                 var Phan_tram_KM = San_pham_Mua.Trang_thai.Ti_le_khuyen_mai * 100
+                //Tính giá thanh toán
+                if (San_pham_Mua.Trang_thai.Ti_le_khuyen_mai != 0) {
+                    var Gia_thanh_toan = Gia_khuyen_mai //number: đơn giá sẽ thanh toán
+                }
+                else {
+                    var Gia_thanh_toan = Gia_goc  //number: đơn giá sẽ thanh toán  
+                }
+
+                if (sessionStorage.getItem(San_pham_Mua.Ma_so) != undefined) {
+                    var So_luong_Dat_hang = sessionStorage.getItem(San_pham_Mua.Ma_so) //Lấy số lượng đặt từ sessionStorage
+                } else {
+                    var So_luong_Dat_hang = 1
+                }
+
                 noi_dung_HTML += `
                     <tr>
                         <td>
                             <figure class="media">
-                                <div class="img-wrap"><img src="http://localhost:1001/${San_pham_Mua.Ma_so}.jpg" class="img-thumbnail img-sm"></div>
+                                <div class="img-wrap"><img src="${Dia_chi_Dich_vu_Media}/${San_pham_Mua.Ma_so}.jpg" class="img-thumbnail img-sm"></div>
                                     <figcaption class="media-body">
                                         <h6 class="title text-truncate">${San_pham_Mua.Ten}</h6>
                                         <dl class="dlist-inline small">
@@ -448,7 +468,7 @@
                                         </figure>
                         </td>
                         <td>
-                                <input class="form-control" type="number" min="1" max="10" value="1" id="example-number-input">
+                                <input id="Th_So_luong_${San_pham_Mua.Ma_so}" class="form-control" type="number" min="1" max="10" value="${So_luong_Dat_hang}" id="example-number-input">
                                     </td>
                         <td>`
 
@@ -468,7 +488,7 @@
                                     </div> <!-- price-wrap .// -->
                         </td>
                                 <td class="text-right">
-                                    <a id="Th_Bo_san_pham_${San_pham_Mua.Ma_so}" href="" class="btn btn-outline-danger"> × Bỏ sản phẩm</a>
+                                    <a id="Th_Bo_san_pham_${San_pham_Mua.Ma_so}" href="" class="btn btn-outline-danger"> Xóa</a>
                         </td>
                     </tr>`
 
@@ -481,7 +501,7 @@
                     </div> <!-- price-wrap .// -->
                         </td>
                                 <td class="text-right">
-                                    <a id="Th_Bo_san_pham_${San_pham_Mua.Ma_so}" href="" class="btn btn-outline-danger"> × Bỏ sản phẩm</a>
+                                    <a id="Th_Bo_san_pham_${San_pham_Mua.Ma_so}" href="" class="btn btn-outline-danger"> Xóa</a>
                         </td>
                     </tr>`
                 }
@@ -489,27 +509,49 @@
                 //Jquery
                 $(document).ready(function () {
                     $(`#Th_Bo_san_pham_` + San_pham_Mua.Ma_so).on("click", function () {
-
+                        //Bỏ khỏi danh sách mua
                         var ds = []
                         if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
                             ds = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
                         }
                         var vt = ds.indexOf(San_pham_Mua.Ma_so)
-                        ds.splice(vt, 1) // Xóa
+                        ds.splice(vt, 1) //xóa khỏi danh sách  chọn
                         // alert(San_pham_Mua.Ma_so)
                         if (ds.length > 0) {
-                            sessionStorage.setItem("Danh_sach_Chon", JSON.stringify(ds)) // 
+                            sessionStorage.setItem("Danh_sach_Chon", JSON.stringify(ds))
                         } else {
-                            sessionStorage.removeItem("Danh_sach_Chon") //xóa khỏi danh sách  
+                            sessionStorage.removeItem("Danh_sach_Chon")//xóa khỏi danh sách  chọn
                         }
+
+                        //Bỏ khỏi danh sách thanh toán
+                        sessionStorage.removeItem(San_pham_Mua.Ma_so)//xóa khỏi danh sách  chọn
                     });
                 });
-
             })
 
             //Xuất danh sách hoa
             Th_Cha.innerHTML = noi_dung_HTML
         }
+
+
+        //Xác nhận Đặt hàng
+        if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
+            Th_Tien_hanh_Dat_hang.onclick = () => {
+                Danh_sach_Cap_nhat.forEach(San_pham_Mua => {
+                    sessionStorage.setItem(San_pham_Mua.Ma_so, JSON.stringify(parseInt(document.querySelector(`#Th_So_luong_${San_pham_Mua.Ma_so}`).value))) // ghi vào sessionStorage
+                })
+            }
+        }
+
+
+
+
+
+
+
+
+
+
     </script>
     <!-- **************** XỬ LÝ JAVASCRIPT - END //**************** -->
 </body>

@@ -61,15 +61,15 @@
                         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                 Dịch vụ của chúng tôi </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Dịch vụ giao hàng</a></li>
-                                <li><a class="dropdown-item" href="#">Dịch vụ đặt hoa theo yêu cầu</a></li>
+                                <li><a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Dịch vụ giao hàng</a></li>
+                                <li><a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Dịch vụ đặt hoa theo yêu cầu</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                                 Liên hệ với chúng tôi</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Trung tâm hỗ trợ khách hàng</a></li>
-                                <li><a class="dropdown-item" href="#">Nộp đơn tuyển dụng</a></li>
+                                <li><a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Trung tâm hỗ trợ khách hàng</a></li>
+                                <li><a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Nộp đơn tuyển dụng</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -147,8 +147,8 @@
                                             <button type="submit" class="btn btn-primary">Đăng nhập</button>
                                         </form>
                                         <hr class="dropdown-divider">
-                                        <a class="dropdown-item" href="#">Đăng ký tài khoản</a>
-                                        <a class="dropdown-item" href="#">Quên mật khẩu?</a>
+                                        <a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Đăng ký tài khoản</a>
+                                        <a class="dropdown-item" href="MH_Trung_tam_ho_tro.html">Quên mật khẩu?</a>
                                     </div> <!--  dropdown-menu .// -->
                                 </div> <!-- widget-header .// -->
                             </div> <!-- col.// -->
@@ -177,37 +177,45 @@
 
 
     <section class="section-content bg padding-y border-top">
-        <div class="container">
-
+        <div id="Th_Ketqua" class="container">
             <div class="row">
-                <main class="col-sm-9">
+                <main class="col-sm-8">
                     <div class="card">
 
                         <article class="card-body">
                             <h4 class="title"> Thông tin giao hàng </h4>
                             <hr>
+                            <span id="Th_loi_ky_tu" class="text-danger"> </span>
                             <form>
                                 <div class="form-group">
                                     <label class="font-weight-bold">Họ và tên</label>
-                                    <input type="text" class="form-control col-7" placeholder="">
+                                    <input id="Th_Ho_ten" name="Họ tên" type="text" class="form-control col-7"
+                                        placeholder="">
+                                    <small class="form-text text-muted">* Bắt buộc nhập</small>
                                 </div> <!-- form-group end.// -->
                                 <div class="form-group">
                                     <label class="font-weight-bold">Địa chỉ email</label>
-                                    <input type="email" class="form-control col-7" placeholder="">
+                                    <input id="Th_Email" name="Email" type="email" class="form-control col-7"
+                                        placeholder="">
+                                    <small class="form-text text-muted">* Bắt buộc nhập</small>
                                 </div> <!-- form-group end.// -->
                                 <div class="form-group">
                                     <label class="font-weight-bold">Số điện thoại</label>
-                                    <input type="tel" class="form-control col-7" placeholder="">
+                                    <input id="Th_Dien_thoai" name="Số điện thoại" type="tel" class="form-control col-7"
+                                        placeholder="">
+                                    <small class="form-text text-muted">* Bắt buộc nhập</small>
                                 </div> <!-- form-group end.// -->
 
                                 <div class="form-row">
                                     <div class="form-group col-md-8">
                                         <label class="font-weight-bold">Địa chỉ giao hàng</label>
-                                        <input type="text" class="form-control">
+                                        <input id="Th_Dia_chi_Giao_hang" name="Địa chỉ giao hàng" type="text" class="form-control"
+                                            placeholder="">
+                                        <small class="form-text text-muted">* Bắt buộc nhập</small>
                                     </div> <!-- form-group end.// -->
                                     <div class="form-group col-md-4">
                                         <label class="font-weight-bold">Khu vực</label>
-                                        <select id="inputState" class="form-control">
+                                        <select id="Th_Khu_vuc" class="form-control">
                                             <option>Hà Nội</option>
                                             <option>Đà Nẵng</option>
                                             <option selected="">TP. Hồ Chí Minh</option>
@@ -219,7 +227,7 @@
                                 <div class="form-row">
                                     <div class="form-group col-md-8">
                                         <label class="font-weight-bold">Ghi chú cho đơn hàng</label>
-                                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                                        <textarea id="Th_Ghi_chu" class="form-control" aria-label="With textarea"></textarea>
                                     </div> <!-- form-group end.// -->
                                 </div> <!-- form-row.// -->
                                 <small class="text-muted"><i class="fas fa-lock">&nbsp;</i>Chúng tôi cam kết đảm bảo
@@ -227,31 +235,52 @@
                             </form>
                         </article> <!-- card-body end .// -->
                     </div> <!-- card.// -->
-
-
                 </main> <!-- col.// -->
 
 
 
 
                 <!-- ===============Thông tin thanh toán========-->
-                <aside class="col-sm-3">
-                    <p class="alert alert-success"><i class="fas fa-phone">&nbsp;</i>Chúng tôi sẽ liên hệ để xác nhận
-                        trong vòng 2 giờ kể từ khi đặt hàng</p>
+                <aside class="col-sm-4">
+                    <dl>
+                        <!-- ===============Danh sách sản phẩm thanh toán ========-->
+                        <div class="card">
+                            <table class="table table-hover shopping-cart-wrap table-responsive-xl">
+                                <thead class="text-muted">
+                                    <tr>
+                                        <th scope="col">Thông tin đơn hàng</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="Th_Danh_sach_SP_Thanh_toan">
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- ===============Danh sách sản phẩm thanh toán END ========-->
+                    </dl>
+
                     <dl class="dlist-align small">
-                        <dt>Tổng cộng</dt>
-                        <dd class="text-right">12 sản phẩm</dd>
+                        <dt>Tạm tính: </dt>
+                        <dd class="text-right"><span id="Th_Gia_goc">0</span> ₫</dd>
+                    </dl>
+                    <dl class="dlist-align small">
+                        <dt>Giảm giá:</dt>
+                        <dd class="text-right">-<span id="Th_Giam_gia">0</span> ₫</dd>
                     </dl>
                     <dl class="dlist-align h6">
                         <dt>Thành tiền:</dt>
-                        <dd class="text-right text-danger"><strong>1.500.000 đ</strong></dd>
+                        <dd class="text-right text-danger"><strong id="Th_Tien_tong_Thanh_toan">0</strong> ₫</dd>
+                    </dl>
+                    <dl class="dlist-align small">
+                        <dd class="text-right">(Đã bao gồm VAT)</dd>
                     </dl>
                     <hr>
                     <dl>
                         <a href="MH_Gio_hang.html" class="btn btn-secondary col-sm-12">Chỉnh sửa giỏ hàng</a>
                     </dl>
                     <dl>
-                        <a href="MH_Danh_sach_Hoa.html" class="btn btn-danger col-sm-12">Xác nhận thanh toán</a>
+                        <span id="Th_Xac_nhan_Don_hang" class="btn btn-danger col-sm-12">Xác nhận thanh toán</span>
                     </dl>
 
 
@@ -264,8 +293,6 @@
 
 
 
-
-
     <!-- ========================= SECTION SUBSCRIBE ========================= -->
     <section class="section-subscribe bg-secondary padding-y-lg">
         <div class="container">
@@ -275,10 +302,10 @@
             <div class="row justify-content-md-center">
                 <div class="col-lg-4 col-sm-6">
                     <form class="row-sm form-noborder">
-                        <div class="col-8">
+                        <div class="col-xl-8">
                             <input class="form-control" placeholder="Email của bạn" type="email">
                         </div> <!-- col.// -->
-                        <div class="col-4">
+                        <div class="col-xl-4">
                             <button type="submit" class="btn btn-block btn-warning"> <i class="fa fa-envelope"></i>
                                 Theo dõi </button>
                         </div> <!-- col.// -->
@@ -300,20 +327,20 @@
                     <aside class="col-sm-3 col-md-3 white">
                         <h5 class="title">HỖ TRỢ KHÁCH HÀNG </h5>
                         <ul class="list-unstyled">
-                            <li> <a href="#">Trung tâm hỗ trợ khách hàng</a></li>
-                            <li><a href="#">Dịch vụ giao hàng</a></li>
-                            <li><a href="#">Dịch vụ đặt hoa theo yêu cầu</a></li>
-                            <li> <a href="#">Gửi yêu cầu hỗ trợ</a></li>
-                            <li> <a href="#">Chính sách đổi trả</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html">Trung tâm hỗ trợ khách hàng</a></li>
+                            <li><a href="MH_Trung_tam_ho_tro.html">Dịch vụ giao hàng</a></li>
+                            <li><a href="MH_Trung_tam_ho_tro.html">Dịch vụ đặt hoa theo yêu cầu</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html">Gửi yêu cầu hỗ trợ</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html">Chính sách đổi trả</a></li>
                         </ul>
                     </aside>
                     <aside class="col-sm-3  col-md-3 white">
                         <h5 class="title">DANH SÁCH CỬA HÀNG</h5>
                         <ul class="list-unstyled">
-                            <li> <a href="#"> Chi nhánh Quận 1, TP.HCM</a></li>
-                            <li> <a href="#"> Chi nhánh Quận 3, TP.HCM</a></li>
-                            <li> <a href="#"> Chi nhánh Quận 5, TP.HCM</a></li>
-                            <li> <a href="#"> Chi nhánh Hoàn Kiếm, Hà Nội</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Quận 1, TP.HCM</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Quận 3, TP.HCM</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Quận 5, TP.HCM</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Chi nhánh Hoàn Kiếm, Hà Nội</a></li>
 
                         </ul>
                     </aside>
@@ -326,8 +353,8 @@
                                 <img src="Thu_vien_UI_Kit/images/icons/pay-american-ex.png">
                             </li>
 
-                            <li> <a href="#"> Phương thức chuyển tiền</a></li>
-                            <li> <a href="#"> Giấy phép kinh doanh</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Phương thức chuyển tiền</a></li>
+                            <li> <a href="MH_Trung_tam_ho_tro.html"> Giấy phép kinh doanh</a></li>
                         </ul>
                     </aside>
                     <aside class="col-sm-3">
@@ -375,6 +402,10 @@
     <!-- **********************************  XỬ LÝ JAVASCRIPT ****************************-->
     <script>
 
+
+        //************************* KHAI BÁO ĐƯỜNG DẪN DỊCH VỤ ********************************************
+        var Dia_chi_Dich_vu_Media = "http://localhost:1001"
+
         //*********** Xuất dữ liệu dữ liệu hoa, thông tin cửa hàng ***********
         // Đọc tất cả Dữ liệu lưu trữ
         var Du_lieu = Doc_Du_lieu();
@@ -397,9 +428,275 @@
 
 
 
+        //************ Xuất danh sách sản phẩm trong Giỏ hàng
+        var Danh_sach_Cap_nhat = []
+        Danh_sach_Chon = JSON.parse(sessionStorage.getItem("Danh_sach_Chon"))
+
+        if (Danh_sach_Chon != null) {
+            Danh_sach_Chon.forEach(ten_ma_so => {
+                var Hoa_tuoi = Danh_sach_Hoa.find(x => x.Ma_so == ten_ma_so)
+                Danh_sach_Cap_nhat.push(Hoa_tuoi)
+            })
+            //Xuất danh sách sản phẩm trong giỏ hàng
+            Xuat_Danh_sach_San_pham_Thanh_toan(Danh_sach_Cap_nhat, Th_Danh_sach_SP_Thanh_toan, Th_Gia_goc, Th_Giam_gia, Th_Tien_tong_Thanh_toan)
+
+        } else {
+            //Xuất danh sách rỗng
+        }
+
+
+        // Hàm xuất danh sách sản phẩm trong giỏ hàng
+        function Xuat_Danh_sach_San_pham_Thanh_toan(Danh_sach_Mua, Th_Cha, Th_Cha_Gia_goc, Th_Cha_Giam_gia, Th_Cha_Tien_tong_don_hang) {
+            Th_Cha.innerHTML = ""
+            var noi_dung_HTML = ``
+            console.log(Danh_sach_Mua)
+            var Tien_tong_Gia_goc = 0
+            var Tien_tong_Gia_giam = 0
+            var Tien_tong_don_hang = 0
+
+            Danh_sach_Mua.forEach(San_pham_Mua => {
+                // Tính toán giá tiền khuyến mãi
+                var Gia_goc = San_pham_Mua.Don_gia_Ban  //number
+                var Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (San_pham_Mua.Trang_thai.Ti_le_khuyen_mai))  //number
+                var Phan_tram_KM = San_pham_Mua.Trang_thai.Ti_le_khuyen_mai * 100
+                if (San_pham_Mua.Trang_thai.Ti_le_khuyen_mai != 0) {
+                    var Gia_thanh_toan = Gia_khuyen_mai //number: đơn giá sẽ thanh toán
+                }
+                else {
+                    var Gia_thanh_toan = Gia_goc  //number: đơn giá sẽ thanh toán  
+                }
+                noi_dung_HTML += ` <tr>
+                                        <td>
+                                            <figure class="media">
+                                                <div class="img-wrap"><img src="${Dia_chi_Dich_vu_Media}/${San_pham_Mua.Ma_so}.jpg"
+                                                        class="img-thumbnail img-sm"></div>
+                                                <figcaption class="media-body">
+                                                    <h6 class="title text-truncate">${San_pham_Mua.Ten}</h6>
+                                                    <dl class="dlist-inline small">
+                                                        <dt>Chủ đề: </dt>
+                                                        <dd>${San_pham_Mua.Chu_de.Ten}</dd>
+                                                    </dl>
+                                                    <dl class="dlist-inline small text-success">
+                                                        <dd>Miễn phí vận chuyển</dd>
+                                                     </dl>
+                                                </figcaption>
+                                            </figure>
+                                        </td>`
+
+                if (San_pham_Mua.Trang_thai.Ti_le_khuyen_mai != 0) {
+                    noi_dung_HTML += `<td>
+                                            <div class="price-wrap text-right small">
+                                                <dl class="dlist-inline  ">
+                                                    <dt>${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_thanh_toan)} ₫</dt>
+                                                </dl>
+                                            <dl class="dlist-inline small text-secondary">
+                                                 <dd style="text-decoration: line-through">${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_goc)} ₫</dd>
+                                            </dl>
+                                                <dd>x ${sessionStorage.getItem(San_pham_Mua.Ma_so)}</dd>
+                                            </div>
+                                        </td>
+                                    </tr>`
+
+                } else {
+                    noi_dung_HTML += `<td>
+                                            <div class="price-wrap text-right small">
+                                                <dl class="dlist-inline  ">
+                                                    <dt>${Tao_Chuoi_The_hien_So_nguyen_duong(Gia_thanh_toan)} ₫</dt>
+                                                </dl>
+                                                <dd>x ${sessionStorage.getItem(San_pham_Mua.Ma_so)}</dd>
+                                            </div>
+                                        </td>
+                                    </tr>`
+                }
+
+                // Tính tổng cộng tiền đơn hàng theo giá gốc
+                Tien_tong_Gia_goc += Gia_goc * (sessionStorage.getItem(San_pham_Mua.Ma_so))
+                Th_Cha_Gia_goc.innerHTML = Tao_Chuoi_The_hien_So_nguyen_duong(Tien_tong_Gia_goc)
+
+                // Tính tổng cộng tiền của đơn hàng
+                Tien_tong_don_hang += Gia_thanh_toan * (sessionStorage.getItem(San_pham_Mua.Ma_so)) //Cộng dồn theo vòng lập
+                Th_Cha_Tien_tong_don_hang.innerHTML = Tao_Chuoi_The_hien_So_nguyen_duong(Tien_tong_don_hang)
+
+                // Tổng số tiền được giảm
+                Tien_tong_Gia_giam = Tien_tong_Gia_goc - Tien_tong_don_hang
+                Th_Cha_Giam_gia.innerHTML = Tao_Chuoi_The_hien_So_nguyen_duong(Tien_tong_Gia_giam)
+            })
+
+            //Xuất danh sách hoa
+            Th_Cha.innerHTML = noi_dung_HTML
+        }
 
 
 
+
+        //**************** Hàm xuất Thông báo đặt hàng thành công
+        function Xuat_Thong_tin_Dat_hang_Thanh_cong(Th_Cha_Donhang, Ds_Phieu_Dat) {
+
+            //Tạo mã ngẫu nhiên, có thời gian code lại sau. :)))
+            var Ma_Don_hang = Math.floor(Math.random() * 1000) + 1
+
+            var noi_dung_HTML = `
+           <main class="col-sm-12 align-items-center justify-content-center">
+                <div class="card align-items-center justify-content-center">
+                    <table class="table table-hover shopping-cart-wrap align-items-center justify-content-center">
+                        <tbody>
+                            <hr>
+                            <span class="icon-wrap icon-md round bg-success">
+                                    <i class="fas fa-check white"></i>
+                                </span>
+                                <br>
+                            <div class="text text-dark font-weight-bold">
+                                Đặt hàng thành công. Nhân viên giao hàng sẽ liên hệ với bạn
+                                trong thời gian sớm nhất. Cảm ơn vì đã đặt hàng tại Shop của chúng tôi!
+                            </div>
+                            <hr>
+                            <tr>
+                                <div class="box bg-light">
+                                    <h5 class="text-danger text-center"> Thông tin đơn hàng</h5>
+                                    <hr>
+                                    <dl class="dlist-align">
+                                        <dt>Mã đơn hàng: </dt>
+                                        <dd> EF-${Ds_Phieu_Dat[0].Phieu_Dat.Thong_tin_Khach_hang.Dien_thoai}-${Ma_Don_hang}</dd>
+                                    </dl>
+                                    <dl class="dlist-align">
+                                        <dt>Họ tên: </dt>
+                                        <dd>${Ds_Phieu_Dat[0].Phieu_Dat.Thong_tin_Khach_hang.Ho_ten}</dd>
+                                    </dl>
+                                    <dl class="dlist-align">
+                                        <dt>Email:</dt>
+                                        <dd>${Ds_Phieu_Dat[0].Phieu_Dat.Thong_tin_Khach_hang.Email}</dd>
+                                    </dl>
+                                    <dl class="dlist-align">
+                                        <dt>Số điện thoại:</dt>
+                                        <dd>${Ds_Phieu_Dat[0].Phieu_Dat.Thong_tin_Khach_hang.Dien_thoai}</dd>
+                                    </dl>
+                                    <dl class="dlist-align">
+                                        <dt>Xác nhận lúc:</dt>
+                                        <dd>${Ds_Phieu_Dat[0].Phieu_Dat.Ngay_Dat_hang}</dd>
+                                    </dl>
+                                    <dl class="dlist-align">
+                                        <dt>Dự kiến giao:</dt>
+                                        <dd>${Ds_Phieu_Dat[0].Phieu_Dat.Ngay_Giao_hang_Du_kien}</dd>
+                                    </dl>
+                                    <dl class="dlist-align">
+                                        <dt>Thành tiền:</dt>
+                                        <dd id="Th_Tien_don_hang">...... VND</dd>
+                                    </dl>
+                                    </div> 
+                                        </tr>
+                                                    <hr>
+                                                    <a href="MH_Danh_sach_Hoa.html" class="btn btn-warning btn col-sm-3"> <i class="fa fa-shopping-cart"></i>
+                                                        Tiếp tục mua sắm </a>
+                                                </tbody>
+                                            </table>
+                                        </div> 
+                                    </main>`
+
+            //Thệ hiện giá đơn hàng
+            Th_Cha_Donhang.innerHTML = noi_dung_HTML
+            var Tong = 0
+            Ds_Phieu_Dat.forEach(donhang => {
+                Tong += (donhang.Phieu_Dat.So_luong * donhang.Phieu_Dat.Don_gia_Ban)
+                Th_Tien_don_hang.innerHTML = `${Tao_Chuoi_The_hien_So_nguyen_duong(Tong)}`
+            })
+        }
+
+
+
+        // ************  Xác nhận ghi đơn hàng ***********************
+        Th_Xac_nhan_Don_hang.onclick = () => {
+
+            if (sessionStorage.getItem("Danh_sach_Chon") != undefined) {
+                //Kiểm tra ký tự
+                kiem_tra_loi_ky_tu(Th_loi_ky_tu);
+                if (Th_loi_ky_tu.innerHTML != "") {
+                    console.log("Lỗi ký tự")
+                } else {
+                    console.log("Ký tự hợp lệ")
+                    var Ds_Dat = []
+                    var now = new Date()
+                    Danh_sach_Cap_nhat.forEach(sanpham => {
+                        // Tính toán giá tiền khuyến mãi
+                        var Gia_goc = sanpham.Don_gia_Ban  //number
+                        var Gia_khuyen_mai = Gia_goc - ((Gia_goc) * (sanpham.Trang_thai.Ti_le_khuyen_mai))  //number
+                        if (sanpham.Trang_thai.Ti_le_khuyen_mai != 0) {
+                            var Gia_thanh_toan = Gia_khuyen_mai //number: đơn giá sẽ thanh toán
+                        }
+                        else {
+                            var Gia_thanh_toan = Gia_goc  //number: đơn giá sẽ thanh toán  
+                        }
+                        var Phieu_Dat = {
+                            "Ngay_Dat_hang": now.toString(),
+                            "Ngay_Giao_hang_Du_kien": (new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2)).toLocaleDateString(),
+                            "So_luong": sessionStorage.getItem(sanpham.Ma_so),
+                            "Don_gia_Ban": Gia_thanh_toan,
+                            "Thanh_tien": Gia_thanh_toan * sessionStorage.getItem(sanpham.Ma_so),
+                            "Trang_thai": "CHUA_GIAO_HANG",
+                            "Thong_tin_Khach_hang": {
+                                "Ho_ten": Th_Ho_ten.value,
+                                "Email": Th_Email.value,
+                                "Dien_thoai": Th_Dien_thoai.value,
+                                "Dia_chi": Th_Dia_chi_Giao_hang.value,
+                                "Khu_vuc": Th_Khu_vuc.value,
+                                "Ghi_chu": Th_Ghi_chu.value
+                            }
+                        }
+                        var Don_hang = {
+                            "Hoa_tuoi": sanpham,
+                            "Phieu_Dat": Phieu_Dat
+                        }
+                        Ds_Dat.push(Don_hang)
+                    })
+
+                    console.log(Ds_Dat)
+                    var Kq = Ghi_Phieu_Dat_hang(Ds_Dat)
+
+                    if (Kq == "OK") {
+                        //Xuất thông báo thành công
+                        Xuat_Thong_tin_Dat_hang_Thanh_cong(Th_Ketqua, Ds_Dat)
+                        //Xóa bộ nhớ đơn hàng
+                        sessionStorage.clear();
+                        Th_Gio_hang_So_luong_SP.innerHTML = `<u>0</u>` //xuất số lượng sp lên icon giỏ hàng
+                        //alert("Ghi thanh cong")
+                        //  window.location = "MH_Danh_sach_Hoa.html"
+                    }
+                }
+            } else {
+                alert("Lỗi giỏ hàng rỗng")
+            }
+        }
+
+
+        //************ Hàm kiểm tra và xuất thông báo lỗi  ************
+        function kiem_tra_loi_ky_tu(Th_Cha_ky_tu) {
+            loi_kytu = '';
+            count = 0;
+            //Kiểm tra lỗi
+            kiemtraloi(Th_Ho_ten);
+            kiemtraloi(Th_Email);
+            kiemtraloi(Th_Dien_thoai);
+            kiemtraloi(Th_Dia_chi_Giao_hang);
+            Th_Cha_ky_tu.innerHTML = loi_kytu;
+        }
+        //************ Hàm check ô ký tự ************
+        function kiemtraloi(kytu) {
+            var kytu_hople = kytu.value.trim() != "";
+            if (kytu_hople) {
+                // console.log(kytu.name +": hợp lệ")
+            } else {
+                loi_kytu += `-` + '<b> ' + kytu.name + '</b>' + ' không hợp lệ <br>';
+                count = count + 1;
+                //console.log(kytu.name + " - không hợp lệ");
+                var Thong_bao_loi = ""
+                // Định vị con trỏ vào chỗ sai
+                if (count == 1) {
+                    kytu.placeholder = "Vui lòng nhập " + kytu.name
+                    kytu.focus();
+                    //console.log(kytu.name + '|' + count)
+                    //alert(`kytu.name+'|'+count);    
+                }
+            }
+        }
     </script>
     <!-- **************** XỬ LÝ JAVASCRIPT - END //**************** -->
 </body>
