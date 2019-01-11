@@ -1,5 +1,5 @@
 ﻿# E-Flower-shop
-Địa chỉ demo: http://hltruong.laptrinhjavascript.net
+Địa chỉ demo: http://app.truongho.com/shop
 
 DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
 - 04/12/2018: Bắt đầu dự án
