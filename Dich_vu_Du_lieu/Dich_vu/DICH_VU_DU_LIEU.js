@@ -84,8 +84,3 @@ var Dich_vu = NodeJs_Dich_vu.createServer((Yeu_cau, Dap_ung) => {
 Dich_vu.listen(Port,
     console.log(`Dịch vụ Dữ liệu đang chạy: http://localhost:${Port}`)
 );
-
-
-//Test kết quả
-console.log("----Kiểm tra kết quả---")
-console.log(Du_lieu)
