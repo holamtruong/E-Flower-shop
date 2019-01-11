@@ -1,5 +1,5 @@
 ﻿# E-Flower-shop
-Tác giả: Truong Ho
+Tác giả: Truong Ho (truong360@gmail.com)
 Địa chỉ demo: http://app.truongho.com/shop
 
 DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
