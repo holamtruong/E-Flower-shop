@@ -1,4 +1,5 @@
 ﻿# E-Flower-shop
+Tác giả: Truong Ho
 Địa chỉ demo: http://app.truongho.com/shop
 
 DỰ ÁN shop Hoa trực tuyến "E-FLOWER SHOP":
