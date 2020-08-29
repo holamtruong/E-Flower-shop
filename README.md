@@ -3,10 +3,11 @@
 - Publish: 2018
 - Keyword: NodeJS, bootstrap-ecommerce-uikit
 
-Demo data service:  https://eflower-dichvudulieu.herokuapp.com
-Demo media service: : https://eflower-dichvumedia.herokuapp.com
+- Demo data service:  https://eflower-dichvudulieu.herokuapp.com
+- Demo media service: : https://eflower-dichvumedia.herokuapp.com
 
 
+### Demo:
 ![](https://github.com/holamtruong/E-Flower-shop/blob/master/screen_homepage.png?raw=true)
 
 ![](https://github.com/holamtruong/E-Flower-shop/blob/master/screen_item_list.png?raw=true)
